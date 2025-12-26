@@ -1,0 +1,1116 @@
+-- ======================================================================
+-- Module: hexm.common.consts.skill_consts
+-- Source: package.loaded
+-- Type: table
+-- Order: #6547
+-- ======================================================================
+
+-- Module type: table
+
+ADD_BUFF_ON_SELF: 0
+
+ADD_BUFF_ON_TARGET: 1
+
+ANQI_SKILL_SLOT_NO: 12
+
+BEHIT_SP_STATE_1: 1
+
+BEHIT_SP_STATE_NONE: 0
+
+BEHIT_STATE_END: 3
+
+BEHIT_STATE_MOVE_POST: 1
+
+BEHIT_STATE_POST: 2
+
+BEHIT_STATE_START: 0
+
+BIG_FLY_UNLOCK_NO: 115
+
+COMBO_STATE_END: "COMBO_END"
+
+COMBO_STATE_START: "COMBO_START"
+
+COOP_FORBID_SKILL_LIST: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 31000001
+}
+
+DAMAGE_HEAL: 2
+
+DAMAGE_HIT: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 1
+}
+
+DAMAGE_NORMAL: 1
+
+DAMAGE_NO_DAM: 3
+
+DEFENCE_FLAG_FAIL: 2
+
+DEFENCE_FLAG_NONE: 0
+
+DEFENCE_FLAG_PARRY: 3
+
+DEFENCE_FLAG_SHIELD: 4
+
+DEFENCE_FLAG_SUCC: 1
+
+DEFENCE_PRESS_CONSOLE: 1
+
+DEFENCE_PRESS_MOBILE: 2
+
+DEFENCE_PRESS_NONE: 0
+
+DX_CRIM_EXPIRE_TS: 180
+
+DX_CRIM_ID: 14
+
+DX_DEVIL_CRIM_ID: 15
+
+HARM_TEXT_OTHER: 1
+
+HARM_TEXT_SELF: 2
+
+JIANGHU_SKILL_AGITATE: 3
+
+JIANGHU_SKILL_ANQI: 0
+
+JIANGHU_SKILL_DIANXUE: 1
+
+JIANGHU_SKILL_POISON: 2
+
+JM_TAG_NO_CUSTOM_HIT_BUFF: 1011
+
+JM_TYPE_DIRECT: 1
+
+JM_TYPE_DOT: 2
+
+MAIN_SKILL_NUM: 16
+
+MAIN_SLOT_NO_LIST: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 1
+  2: 2
+  3: 3
+  4: 4
+  5: 5
+  6: 6
+  7: 7
+  8: 9
+  9: 10
+  10: 11
+  11: 13
+  12: 16
+  13: 26
+}
+
+NORMAL_SKILL_SLOT_NO: 1
+
+NPC_SRV_WAIT_STATES: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  SKILL_END: "skill_state"
+  SKILL_MOVEPOST: "skill_state"
+  SKILL_POST: "skill_state"
+}
+
+PANEL_TYPE_BUILDING: 3
+
+PANEL_TYPE_LIFE: 2
+
+PANEL_TYPE_NORMAL: 1
+
+PARRY_ASSIST_COST: 1
+
+PARRY_TAG_NORMAL: 1
+
+PARRY_TAG_STRIKE_BACK: 2
+
+PA_ENABLE_BOSS_DANGER: 3
+
+PA_ENABLE_BOSS_NORMAL: 2
+
+PA_ENABLE_MON_DANGER: 1
+
+PA_ENABLE_MON_NORMAL: 0
+
+PHONE_MAIN_SKILL_NUM: 28
+
+PVE_IDENTITY_ALL: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 1
+  2: 2
+  3: 3
+}
+
+PVE_IDENTITY_ATK: 1
+
+PVE_IDENTITY_HEAL: 2
+
+PVE_IDENTITY_TANK: 3
+
+PVE_IDENTITY_TANK_ALL: 31
+
+PVE_IDENTITY_TANK_MAIN: 32
+
+PVE_IDENTITY_TANK_SUB: 33
+
+PVE_TYPE_HEAL: 2
+
+PVE_TYPE_MELEE_ATK: 1
+
+PVE_TYPE_OTHER: 5
+
+PVE_TYPE_RAHGE_ATK: 4
+
+PVE_TYPE_TANK: 3
+
+QISHU_MODULE_ARCHER: 3
+
+QISHU_MODULE_BAIYE_WALL: 4
+
+QISHU_MODULE_BATTLE: 1
+
+QISHU_MODULE_BATTLE_TILE: 5
+
+QISHU_MODULE_BATTLE_TILE_CONSOLE: 6
+
+QISHU_MODULE_GAMEPLAY: 2
+
+QISHU_PANEL_BATTLE: 500
+
+QISHU_PANEL_LIFE: 502
+
+QISHU_PANEL_MYSTERY: 501
+
+QISHU_SLOT_NO: <list>
+
+QTE_SEG_FAIL: 1
+
+QTE_SEG_NONE: 0
+
+QTE_SEG_SUCCESS: 2
+
+RESOURCE_TYPE_CONSUME: 0
+
+RESOURCE_TYPE_NONE: 0
+
+RESOURCE_TYPE_PRODUCE: 0
+
+SENSOR_SLOT_NO: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 10
+  2: 13
+  3: 14
+}
+
+SKILL_BB_SAVE_CONTEXT: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  charge_time: 1
+}
+
+SKILL_CALC_TYPE_CURE: 2
+
+SKILL_CALC_TYPE_HARM: 1
+
+SKILL_CALC_TYPE_OTHER: 3
+
+SKILL_CLASS_ALL_COMBAT: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 101
+  2: 12
+  3: 13
+  4: 14
+  5: 15
+  6: 18
+  7: 6
+  8: 19
+  9: 101
+  10: 102
+  11: 103
+  12: 104
+  13: 16
+  14: 50
+  15: 51
+}
+
+SKILL_CLASS_ANCHOR_MOVE: 29
+
+SKILL_CLASS_ANQI: 6
+
+SKILL_CLASS_ANSHA: 180
+
+SKILL_CLASS_ARROW: 33
+
+SKILL_CLASS_DEFENCE: 40
+
+SKILL_CLASS_EVADE: 13
+
+SKILL_CLASS_FALL: 25
+
+SKILL_CLASS_FANJI: 17
+
+SKILL_CLASS_FLY: 26
+
+SKILL_CLASS_FLY2: 28
+
+SKILL_CLASS_IDENTITY: 4
+
+SKILL_CLASS_JUMP_0: 20
+
+SKILL_CLASS_JUMP_1ST: 21
+
+SKILL_CLASS_JUMP_2ND: 22
+
+SKILL_CLASS_JUMP_3RD: 23
+
+SKILL_CLASS_JUMP_DASH: 24
+
+SKILL_CLASS_KONG: 50
+
+SKILL_CLASS_MEDICAL: 61
+
+SKILL_CLASS_NORMAL: 101
+
+SKILL_CLASS_PARRY: 14
+
+SKILL_CLASS_POFANG: 19
+
+SKILL_CLASS_QING: 101
+
+SKILL_CLASS_QISHEN: 105
+
+SKILL_CLASS_QISHU: 2
+
+SKILL_CLASS_REVIVE: 107
+
+SKILL_CLASS_SPEC: 12
+
+SKILL_CLASS_TIAO: 51
+
+SKILL_CLASS_TU: 103
+
+SKILL_CLASS_WEAPON: 15
+
+SKILL_CLASS_XULI: 104
+
+SKILL_CLASS_YIWU: 16
+
+SKILL_CLASS_ZHANSHA: 18
+
+SKILL_CLASS_ZHONG: 102
+
+SKILL_DEFENCE_MODEL_ID: 20101002
+
+SKILL_DEFENCE_SLOT_ID: 16
+
+SKILL_GAME_PLAY_CALCPOINT_BUFF: 3
+
+SKILL_GAME_PLAY_CANXIN: 1
+
+SKILL_GAME_PLAY_RESOURCE_BUFF: 4
+
+SKILL_GAME_PLAY_TANDAO: 2
+
+SKILL_GAME_PLAY_YIWU: 101
+
+SKILL_MARK_TYPE: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  [1, 2]: "combo"
+  [12]: "strength"
+  [3]: "longpress"
+  [4]: "sensor"
+  [5]: "chongneng"
+  [6]: "sangengtian"
+  [7]: "shuangdao"
+}
+
+SKILL_NORMAL_DEFENCE_MODEL_ID: 70051
+
+SKILL_NORMAL_DEFENCE_SLOT_ID: 15
+
+SKILL_NUM: 23
+
+SKILL_REPLACE_ALLY_SKILL: "ally_skill"
+
+SKILL_REPLACE_ENEMY_SKILL: "enemy_skill"
+
+SKILL_REPLACE_SELF_SKILL: "self_skill"
+
+SKILL_SEGMENT_END: "FRAGMENT_END"
+
+SKILL_SENSOR_BUFF_EXIST: 31
+
+SKILL_SENSOR_BUFF_NON_EXIST: 32
+
+SKILL_SENSOR_FALSE: 12
+
+SKILL_SENSOR_GT_COMBAT_RES: 72
+
+SKILL_SENSOR_GT_HP: 62
+
+SKILL_SENSOR_IN: 21
+
+SKILL_SENSOR_IN_BEHIT_STAGE: 121
+
+SKILL_SENSOR_IN_GAME_SPEED: 118
+
+SKILL_SENSOR_IN_SKILL_STATE: 119
+
+SKILL_SENSOR_LE_COMBAT_RES: 71
+
+SKILL_SENSOR_LE_HP: 61
+
+SKILL_SENSOR_NOT_IN_SKILL_STATE: 120
+
+SKILL_SENSOR_NOT_SELF_BEHIT_STATE: 114
+
+SKILL_SENSOR_NOT_TARGET_BEHIT_STATE: 112
+
+SKILL_SENSOR_OUT: 22
+
+SKILL_SENSOR_SELF_BEHIT_STATE: 113
+
+SKILL_SENSOR_SELF_BUFF_EXIST: 33
+
+SKILL_SENSOR_SELF_BUFF_NON_EXIST: 34
+
+SKILL_SENSOR_SELF_CTRL_BUFF: 117
+
+SKILL_SENSOR_SELF_ENTER_COMBAT: 101
+
+SKILL_SENSOR_SELF_EXIT_COMBAT: 102
+
+SKILL_SENSOR_SELF_GT_COMBAT_RES: 74
+
+SKILL_SENSOR_SELF_GT_HP: 64
+
+SKILL_SENSOR_SELF_LE_COMBAT_RES: 73
+
+SKILL_SENSOR_SELF_LE_HP: 63
+
+SKILL_SENSOR_SELF_POS_FLAG_EXIST: 43
+
+SKILL_SENSOR_SELF_POS_FLAG_NON_EXIST: 44
+
+SKILL_SENSOR_SELF_TYPE: "skill_sensor_self_type"
+
+SKILL_SENSOR_SENSOR_CHANGE: 122
+
+SKILL_SENSOR_TARGET_BACK: 81
+
+SKILL_SENSOR_TARGET_BEHIT_FLAG_EXIST: 51
+
+SKILL_SENSOR_TARGET_BEHIT_FLAG_NON_EXIST: 52
+
+SKILL_SENSOR_TARGET_BEHIT_STATE: 111
+
+SKILL_SENSOR_TARGET_CTRL_BUFF: 116
+
+SKILL_SENSOR_TARGET_ENTER_COMBAT: 103
+
+SKILL_SENSOR_TARGET_ENTITY_ID: 93
+
+SKILL_SENSOR_TARGET_EXIT_COMBAT: 104
+
+SKILL_SENSOR_TARGET_FACE: 82
+
+SKILL_SENSOR_TARGET_POS_FLAG_EXIST: 41
+
+SKILL_SENSOR_TARGET_POS_FLAG_NON_EXIST: 42
+
+SKILL_SENSOR_TARGET_SPEC_TRAP: 115
+
+SKILL_SENSOR_TARGET_TYPE: "skill_sensor_target_type"
+
+SKILL_SENSOR_TARGET_TYPE_MATCH: 91
+
+SKILL_SENSOR_TARGET_TYPE_NON_MATCH: 92
+
+SKILL_SENSOR_TRUE: 11
+
+SKILL_STATE_END: "SKILL_END"
+
+SKILL_STATE_FLYPOST: "FLY_SKILL_POST"
+
+SKILL_STATE_MOVEPOST: "SKILL_MOVEPOST"
+
+SKILL_STATE_MOVEPRE: "SKILL_MOVEPRE"
+
+SKILL_STATE_POST: "SKILL_POST"
+
+SKILL_STATE_PRE: "SKILL_PRE"
+
+SKILL_TOUCH_TYPE_NORMAL: 0
+
+SKILL_TOUCH_TYPE_THRUSTER: 2
+
+SKILL_TOUCH_TYPE_THRUSTER_ACC: 3
+
+SKILL_TOUCH_TYPE_XULI: 1
+
+SKILL_TYPE_BEHIT_BREAK: 14
+
+SKILL_TYPE_BULLET_TIME: 9
+
+SKILL_TYPE_CANXIN: 1
+
+SKILL_TYPE_DANGER: 10
+
+SKILL_TYPE_DANGER_BULLET: 11
+
+SKILL_TYPE_HAS_CONTROL: 100
+
+SKILL_TYPE_JIEKONG: 2
+
+SKILL_TYPE_PAUSE_NL: 13
+
+SKILL_TYPE_QTE: 6
+
+SKILL_TYPE_REVIVE: 12
+
+SKILL_TYPE_SPECIAL_HIT: 5
+
+SKILL_UPGRADE_INSUFFICIENT_PLAYER_LEVEL: 260724
+
+SKILL_UPGRADE_LACK_ITEM: 260722
+
+SKILL_UPGRADE_LACK_MONEY: 260721
+
+SKILL_UPGRADE_OK: 0
+
+SKILL_UPGRADE_REACH_MAX: 260723
+
+SKILL_UPGRADE_UNBREAKTHOUGHT: 260726
+
+SKILL_UPGRADE_UNLEARNED: 260725
+
+SKILL_YIWU_MODEL_ID: 10210
+
+SLOT_DRUG: 8
+
+SLOT_KONGFU: 3
+
+SLOT_KONGFU_LOCK_MAIN: 1
+
+SLOT_KONGFU_LOCK_MAIN_AND_SUB: 2
+
+SLOT_KONGFU_LOCK_NO: 0
+
+SLOT_LYT: 23
+
+SLOT_MODE_TYPE_3V3: 6
+
+SLOT_MODE_TYPE_BOW: 10
+
+SLOT_MODE_TYPE_BUILD: 12
+
+SLOT_MODE_TYPE_FLY: 2
+
+SLOT_MODE_TYPE_GAMEPLAY: 3
+
+SLOT_MODE_TYPE_IDENTITY: 8
+
+SLOT_MODE_TYPE_INTERACT_BUTTON: 7
+
+SLOT_MODE_TYPE_LADDER: 13
+
+SLOT_MODE_TYPE_LIFEWEAPON: 9
+
+SLOT_MODE_TYPE_QINGGONG: 2
+
+SLOT_MODE_TYPE_QISHU: 11
+
+SLOT_MODE_TYPE_SKILL: 1
+
+SLOT_MODE_TYPE_SKILL_CONTRACT: 4
+
+SLOT_MODE_TYPE_SKILL_FORCE_MAIN: 5
+
+SLOT_RESOURCE_CONTINUITY: 2
+
+SLOT_RESOURCE_ICON: 3
+
+SLOT_RESOURCE_SUBSECTION: 1
+
+SLOT_SENSOR: 10
+
+SLOT_SPECIAL: 5
+
+SLOT_STYLE_ARCHER: 6
+
+SLOT_STYLE_BATTLE: 3
+
+SLOT_STYLE_COMMON: 1
+
+SLOT_STYLE_LIFE: 2
+
+SLOT_STYLE_MOBILE_TUOZHAN: 35
+
+SLOT_STYLE_MYSTERY: 9
+
+SLOT_STYLE_UNBATTLE: 5
+
+SLOT_SUB_TYPE_QINGGONG: 2
+
+SLOT_SUB_TYPE_YIWU: 1
+
+SLOT_TAGS: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  console: 1
+  pc: 1
+}
+
+SLOT_TAG_CONSOLE: "console"
+
+SLOT_TAG_PC: "pc"
+
+SLOT_TYPE_ACTIVE_INTERACT_BUTTON: 50
+
+SLOT_TYPE_ANGER_QISHU: 91
+
+SLOT_TYPE_ANYING_STUFF: 1
+
+SLOT_TYPE_ARCHER_ACTIVE_SKILL: 102
+
+SLOT_TYPE_ARCHER_SHOOT: 40
+
+SLOT_TYPE_ARROW_ZHISHUI: 67
+
+SLOT_TYPE_AUTO_RECOVERY: 79
+
+SLOT_TYPE_AUTO_RECOVERY_CHIJI: 123
+
+SLOT_TYPE_BAIYE_ULTIMATE_SKILL: 126
+
+SLOT_TYPE_BAIYE_WALL: 125
+
+SLOT_TYPE_BATTLE_QISHU: 81
+
+SLOT_TYPE_BATTLE_QISHU_CHANGE: 74
+
+SLOT_TYPE_BATTLE_QISHU_TILE: 85
+
+SLOT_TYPE_BIG_FLY: 131
+
+SLOT_TYPE_BUFENG_DOG: 25
+
+SLOT_TYPE_BUFENG_FOLLOW: 23
+
+SLOT_TYPE_BUFENG_FOLLOW_STOP: 27
+
+SLOT_TYPE_BUFENG_MAIN: 20
+
+SLOT_TYPE_BUFENG_PAINTING_MAIN: 22
+
+SLOT_TYPE_BUFENG_TRACE: 24
+
+SLOT_TYPE_BUFENG_TRACE_STOP: 26
+
+SLOT_TYPE_BUFENG_WRITE: 21
+
+SLOT_TYPE_BUILDING_ADD_OR_DELETE: 54
+
+SLOT_TYPE_BUILDING_CANCEL: 55
+
+SLOT_TYPE_BUILDING_FILL: 58
+
+SLOT_TYPE_BUILDING_RECYCLE: 57
+
+SLOT_TYPE_BUILDING_ROTATE: 56
+
+SLOT_TYPE_CHANGE_ARROW: 38
+
+SLOT_TYPE_CHANGE_SPEED: 68
+
+SLOT_TYPE_CHANGE_SPEED_AND_ROLL: 69
+
+SLOT_TYPE_CHANGE_SPEED_RIDE: 124
+
+SLOT_TYPE_CHANGE_SPEED_SWIM_RUSH: 70
+
+SLOT_TYPE_CLOUD_SLICE_TAIJI: 127
+
+SLOT_TYPE_CLUB_BATTLE_COMMANDER_SKILL: 122
+
+SLOT_TYPE_COMMON_BUNDLE_GO_HELP: 33
+
+SLOT_TYPE_COMMON_BUNDLE_SELF_RESCUE: 32
+
+SLOT_TYPE_COMMON_CENTER_CIRCLE: 93
+
+SLOT_TYPE_DEFENCE: 95
+
+SLOT_TYPE_DIANXUE: 49
+
+SLOT_TYPE_DOCTOR_DIAGNOSE: 9
+
+SLOT_TYPE_EXECUTE_MARK: 42
+
+SLOT_TYPE_FISHING: 34
+
+SLOT_TYPE_FISHING_ACCELERATE_HOOK: 37
+
+SLOT_TYPE_FISHING_CHOOSE_BAIT: 36
+
+SLOT_TYPE_FISHING_EMPTY: 114
+
+SLOT_TYPE_FLY_BTN: 59
+
+SLOT_TYPE_GAMEPLAY_LUNPAN: 129
+
+SLOT_TYPE_GAMEPLAY_QISHU: 83
+
+SLOT_TYPE_GOTO: 8
+
+SLOT_TYPE_GRANNY_RACE: 141
+
+SLOT_TYPE_GRANNY_RACE_SPECIAL: 142
+
+SLOT_TYPE_IDENTITY_DOCTOR_DETECT: 5
+
+SLOT_TYPE_IDENTITY_DOCTOR_POISON: 7
+
+SLOT_TYPE_IDENTITY_DOCTOR_SELL: 6
+
+SLOT_TYPE_IDENTITY_PVP_DOCTOR_MEDICINE_HUD: 4
+
+SLOT_TYPE_IDENTITY_TO_LIFE_WEAPON: 30
+
+SLOT_TYPE_INTERACT_COMP_STATUS: 60
+
+SLOT_TYPE_INTERACT_HOME: 11
+
+SLOT_TYPE_INTERACT_MAIN: 12
+
+SLOT_TYPE_INTERACT_OTHER: 13
+
+SLOT_TYPE_INTERACT_PANEL: 16
+
+SLOT_TYPE_INTERACT_RETURN: 14
+
+SLOT_TYPE_JIANGHU_ANQI: 62
+
+SLOT_TYPE_JIANGHU_POFANG: 61
+
+SLOT_TYPE_JIANGHU_SKILL: 44
+
+SLOT_TYPE_LADDER_JUMP: 92
+
+SLOT_TYPE_LIFE_QISHU_CHANGE: 84
+
+SLOT_TYPE_LIFE_WEAPON_CHANGE: 64
+
+SLOT_TYPE_LIFE_WEAPON_SIMPLE: 48
+
+SLOT_TYPE_LIFE_WEAPON_TO_IDENTITY: 31
+
+SLOT_TYPE_LINGYUNTA: 117
+
+SLOT_TYPE_LISTEN_ENTER_ZHANSHA: 41
+
+SLOT_TYPE_MOBILE_ARCHER_PREPARE_AIM: 113
+
+SLOT_TYPE_MOBILE_AUTO_COMBO: 115
+
+SLOT_TYPE_MOBILE_COMMON_FUNC: 107
+
+SLOT_TYPE_MOBILE_EXPLORE: 108
+
+SLOT_TYPE_MOBILE_LADDER_CHANGE_SIDE: 119
+
+SLOT_TYPE_MOBILE_LEAVE_HOLD_CARRIAGE: 111
+
+SLOT_TYPE_MOBILE_LOCK: 109
+
+SLOT_TYPE_MOBILE_QISHU_BATTLE_TILE: 1700
+
+SLOT_TYPE_MOBILE_QISHU_JIEMI_TILE: 1701
+
+SLOT_TYPE_MOBILE_QISHU_OPEN: 121
+
+SLOT_TYPE_MOBILE_QISHU_WEAK: 118
+
+SLOT_TYPE_MOBILE_TELEKINESIS_LOCK: 110
+
+SLOT_TYPE_MYSTERY_QISHU: 82
+
+SLOT_TYPE_NORMAL_CHANGE_SPEED_AND_ROLL: 104
+
+SLOT_TYPE_NORMAL_DEFENCE: 94
+
+SLOT_TYPE_NORMAL_SKILL: -2
+
+SLOT_TYPE_PC_COMMON_GAMEPLAY: 120
+
+SLOT_TYPE_PRISON_PARADE_THROW: 130
+
+SLOT_TYPE_PROBE: 87
+
+SLOT_TYPE_PUTDOWN_TEMP_SHIELD: 101
+
+SLOT_TYPE_QISHU_GROUP: 97
+
+SLOT_TYPE_QISHU_SUB_TYPE: 98
+
+SLOT_TYPE_QUICK_TRIGGER_SKILL: 132
+
+SLOT_TYPE_RELATED_MAIN_SLOT: 86
+
+SLOT_TYPE_RIDE_AUTO_NAVI: 96
+
+SLOT_TYPE_RIDE_BACKSEAT: 99
+
+SLOT_TYPE_RIDE_INVITE: 116
+
+SLOT_TYPE_RIDE_JUMP: 90
+
+SLOT_TYPE_RIDE_OFF: 47
+
+SLOT_TYPE_RIDE_RACE: 46
+
+SLOT_TYPE_RIDE_RUSH: 89
+
+SLOT_TYPE_RUNTIME_SKILL: 10
+
+SLOT_TYPE_SENSOR: 76
+
+SLOT_TYPE_SHUANGDAO_HEAVY_ATTACK: 105
+
+SLOT_TYPE_SKILL: -1
+
+SLOT_TYPE_SKILL_NO_COMBO: 100
+
+SLOT_TYPE_STOP_ANIM_ACTION: 106
+
+SLOT_TYPE_SUB_KONGFU_ICON: 63
+
+SLOT_TYPE_SWITCH_KONGFU: 45
+
+SLOT_TYPE_TAIJI: 88
+
+SLOT_TYPE_TARGET_DIRECTION: 39
+
+SLOT_TYPE_TARGET_POS: 35
+
+SLOT_TYPE_TERRAIN_HOLE: 52
+
+SLOT_TYPE_TERRAIN_LIFT: 51
+
+SLOT_TYPE_TERRAIN_SMOOTH: 53
+
+SLOT_TYPE_THERAPY_GAME_PLAYER: 28
+
+SLOT_TYPE_UNBATTLE_CIRCLE: 78
+
+SLOT_TYPE_UNBATTLE_SQUARE: 77
+
+SLOT_TYPE_UNCONTRACT: 29
+
+SLOT_TYPE_UNEQUIP_INTERACT_WEAPON: 15
+
+SLOT_TYPE_WEAPON_SKILL: 1000
+
+SLOT_TYPE_XINFA: 75
+
+SLOT_TYPE_YIWU: 103
+
+SLOT_TYPE_ZAOTANG: 112
+
+SLOT_YIWUJI: 12
+
+STATE_VAR_NAME: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  COMBO_END: "combo_state"
+  COMBO_START: "combo_state"
+  FLY_SKILL_POST: "fly_state"
+  SKILL_END: "skill_state"
+  SKILL_MOVEPOST: "skill_state"
+  SKILL_MOVEPRE: "skill_state"
+  SKILL_POST: "skill_state"
+  SKILL_PRE: "skill_state"
+}
+
+SUB_SLOT_ALL_NO_LIST: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 3
+  2: 4
+  3: 5
+  4: -3
+  5: -4
+  6: -5
+}
+
+SUB_SLOT_LONG_NO_LIST: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 1
+  2: 3
+  3: 4
+  4: 5
+  5: 9
+  6: 17
+  7: 18
+  8: 19
+}
+
+SUB_SLOT_NO_LIST: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 17
+  2: 18
+  3: 19
+}
+
+_reload_all: true
+
+archer_idx_to_slot_no: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  21: 26020
+}
+
+archer_slot_idx: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 21
+}
+
+baiye_wall_idx_to_slot_no: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  17: 112066
+  18: 112067
+  19: 112068
+  20: 112074
+}
+
+battle_idx_to_slot_no: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  17: 1001
+  18: 1002
+  19: 1003
+  20: 1004
+}
+
+combat_slot_mode_show_slots: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 8
+  2: 3
+  3: 17
+  4: 4
+  5: 5
+  6: 18
+  7: 19
+  8: 6
+  9: 12
+  10: 15
+  11: 10
+  12: 13
+  13: 14
+}
+
+gameplay_idx_to_slot_no: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  17: 2001
+  18: 2002
+  19: 2003
+  20: 2004
+}
+
+gameplay_slot_idx: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 17
+  2: 18
+  3: 19
+  4: 20
+}
+
+get_ui_color_ui_icon: function(arg1)  -- @hexm/common/consts/skill_consts.lua:652-673
+
+get_ui_color_ui_word: function(arg1)  -- @hexm/common/consts/skill_consts.lua:627-650
+
+is_2nd_or_3rd_jump: function(arg1)  -- @hexm/common/consts/skill_consts.lua:364-366
+
+is_class_arrow: function(arg1)  -- @hexm/common/consts/skill_consts.lua:372-374
+
+is_class_fly: function(arg1)  -- @hexm/common/consts/skill_consts.lua:355-358
+
+is_class_jump: function(arg1)  -- @hexm/common/consts/skill_consts.lua:368-370
+
+is_class_jump_or_evade_or_dash: function(arg1)  -- @hexm/common/consts/skill_consts.lua:376-378
+
+is_class_skill_enable_skill_input_cache: function(arg1)  -- @hexm/common/consts/skill_consts.lua:380-382
+
+is_jump_or_fly: function(arg1)  -- @hexm/common/consts/skill_consts.lua:360-362
+
+is_skill_class_free: function(arg1)  -- @hexm/common/consts/skill_consts.lua:397-400
+
+mobile_battle_qishu_idx_to_slot_no: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  -8: 1001
+  -7: 1001
+  -6: 1001
+  -5: 1001
+  -4: 1001
+  -3: 1001
+  -2: 1001
+  -1: 1001
+}
+
+mobile_battle_qishu_slot_idx: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: -1
+  2: -2
+  3: -3
+  4: -4
+  5: -5
+  6: -6
+  7: -7
+  8: -8
+}
+
+mobile_gameplay_qishu_idx_to_slot_no: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  -4: 2001
+  -3: 2001
+  -2: 2001
+  -1: 2001
+}
+
+mobile_gameplay_qishu_slot_idx: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: -1
+  2: -2
+  3: -3
+  4: -4
+}
+
+qishu_battle_tile_idx_to_slot_no: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  -8: 3008
+  -7: 3007
+  -6: 3006
+  -5: 3005
+  17: 3001
+  18: 3002
+  19: 3003
+  20: 3004
+}
+
+qishu_battle_tile_slots_idx: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 17
+  2: 18
+  3: 19
+  4: 20
+  5: -5
+  6: -6
+  7: -7
+  8: -8
+}
+
+qishu_slot_idx: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 17
+  2: 18
+  3: 19
+  4: 20
+}
+
+qishu_tile_battle: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: -1
+  2: -2
+  3: -3
+  4: -4
+}
+
+qishu_tile_idx_tab_one: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 1
+  2: 2
+}
+
+qishu_tile_idx_tab_two: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 3
+  2: 4
+  3: 5
+  4: 6
+  5: 7
+  6: 8
+}
+
+qishu_tile_jiemi: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: -5
+  2: -6
+  3: -7
+  4: -8
+}
+
+try_get_specific_qishu_slot_no: function(arg1, arg2)  -- @hexm/common/consts/skill_consts.lua:675-691
+
+
+-- End of hexm.common.consts.skill_consts

@@ -1,0 +1,22 @@
+-- ======================================================================
+-- Module: hexm.client.entities.local.buff.buff_members.imp_forbid_harmtext
+-- Source: package.loaded
+-- Type: table
+-- Order: #6294
+-- ======================================================================
+
+-- Module type: table
+
+BuffMember: class {
+  -- Metatable:
+  --   __tostring: yes
+  __fini_component__: function(arg1)  -- @hexm/client/entities/local/buff/buff_members/imp_forbid_harmtext.lua:16-18
+  __init_component__: function(arg1)  -- @hexm/client/entities/local/buff/buff_members/imp_forbid_harmtext.lua:12-14
+  ctor: function(...)  -- =[C]
+  key: function()  -- @hexm/client/entities/local/buff/buff_members/imp_forbid_harmtext.lua:4-6
+  new: function(...)  -- =[C]
+  should_enable: function(arg1, arg2, arg3, arg4, arg5)  -- @hexm/client/entities/local/buff/buff_members/imp_forbid_harmtext.lua:8-10
+}
+
+
+-- End of hexm.client.entities.local.buff.buff_members.imp_forbid_harmtext

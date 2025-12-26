@@ -1,0 +1,139 @@
+-- ======================================================================
+-- Module: hexm.common.consts.audio_consts
+-- Source: package.loaded
+-- Type: table
+-- Order: #3049
+-- ======================================================================
+
+-- Module type: table
+
+AILAB_LLM_AUDIO_API_CHANGE_NPC: "/changenpc"
+
+AILAB_LLM_AUDIO_API_CHANGE_PLAYER: "/change_player"
+
+AILAB_LLM_AUDIO_API_EXIT: "/exit"
+
+AILAB_LLM_AUDIO_API_EXITALL: "/exitall"
+
+AILAB_LLM_AUDIO_API_FEEDBACK: "/feedback"
+
+AILAB_LLM_AUDIO_API_GET_ROOM_NUM: "/get_room_num"
+
+AILAB_LLM_AUDIO_API_HEALTH: "/health"
+
+AILAB_LLM_AUDIO_API_JOIN: "/join"
+
+AILAB_LLM_AUDIO_API_POLLING: "/polling"
+
+AILAB_LLM_AUDIO_API_TEXT_CHAT: "/text_chat"
+
+AILAB_LLM_AUDIO_DATA_CHANGE_CCEID: "change_cceid"
+
+AILAB_LLM_AUDIO_DATA_CHANGE_LEADER: "change_leader"
+
+AILAB_LLM_AUDIO_DATA_CHANGE_NPC: "change_npc"
+
+AILAB_LLM_AUDIO_DATA_CHANGE_NPCS: "change_npcs"
+
+AILAB_LLM_AUDIO_DATA_CHANGE_STATE: "change_state"
+
+AILAB_LLM_AUDIO_DATA_CREATE_LLM: "create_llm"
+
+AILAB_LLM_AUDIO_DATA_EXIT_AUDIO: "exit_audio"
+
+AILAB_LLM_AUDIO_DATA_EXIT_AUDIO_LEAVE_TEAM: "exit_audio_leave_team"
+
+AILAB_LLM_AUDIO_DATA_EXIT_AUDIO_LOGOUT: "exit_audio_logout"
+
+AILAB_LLM_AUDIO_HEALTH_INTERVAL: 30
+
+AILAB_LLM_AUDIO_POLLING_INTERVAL: 1
+
+AILAB_LLM_AUDIO_POLLING_MAX_COUNT: 5
+
+AILAB_LLM_AUDIO_STATE_CREATING: 2
+
+AILAB_LLM_AUDIO_STATE_INIT: 0
+
+AILAB_LLM_AUDIO_STATE_SUCCESS: 1
+
+AILAB_LLM_AUDIO_STATE_UPDATE_CCEID: 3
+
+AILAB_LLM_AUDIO_TEAM_AVATAR_NUM: 1
+
+AILAB_NPC_CHAT_AUDIO_API_EXIT: "/audio_exit"
+
+AILAB_NPC_CHAT_AUDIO_API_EXITALL: "/audio_exitall"
+
+AILAB_NPC_CHAT_AUDIO_API_HEALTH: "/health_report"
+
+AILAB_NPC_CHAT_AUDIO_API_JOIN: "/audio_join"
+
+AILAB_NPC_CHAT_AUDIO_API_PATH: "/api/v1/business/h72"
+
+AILAB_NPC_CHAT_AUDIO_HEALTH_INTERVAL: 60
+
+AILAB_NPC_CHAT_AUDIO_STATE_CREATING: 2
+
+AILAB_NPC_CHAT_AUDIO_STATE_INIT: 0
+
+AILAB_NPC_CHAT_AUDIO_STATE_SUCCESS: 1
+
+AILAB_QUERY_NAME_AUDIO_API_PATH: "/get_audio"
+
+APIKEY_PRESSURE_TEST: "6282d2ca-7d2a-4753-ba9b-78662004f542"
+
+CHANNEL_TYPE_BAIYE_CAMP: "guild_pvp_chat"
+
+CHANNEL_TYPE_CHAT_ROOM: "chat_room"
+
+CHANNEL_TYPE_CHIJI_AI: "chiji_ai"
+
+CHANNEL_TYPE_COOP_ROOM: "coop_room"
+
+CHANNEL_TYPE_GROUP_CHAT: "group_chat"
+
+CHANNEL_TYPE_HUPAI: "hupai"
+
+CHANNEL_TYPE_NPC_AI: "npc_ai"
+
+CHANNEL_TYPE_PERSONAL_CHAT: "personal_chat"
+
+CHANNEL_TYPE_TEAM: "team"
+
+CHANNEL_TYPE_ZHIGE: "zhige"
+
+NICKNAME_TYPE_BASE: 1
+
+NICKNAME_TYPE_NEW: 2
+
+STATUS_NORMAL: 0
+
+STATUS_NPC_LAG: 1006
+
+STATUS_NPC_NO_TALK: 1005
+
+STATUS_OVERTIME: 1004
+
+STATUS_PLAYER_NO_TALK: 1003
+
+STATUS_ROOM_INVALID: 102
+
+TYPE_NICKNAME_NEW_PINYIN: 2
+
+TYPE_NICKNAME_PINYIN: 1
+
+URL_PRESSURE_TEST: "int-test-aiworldmaker.netease.com"
+
+URL_PUBLISH: "int-h72-aiworldmaker.netease.com"
+
+URL_SWITCH: 1
+
+URL_TEST: "test-aiworldmaker.netease.com"
+
+URL_TEST_2: "h72-aiworldmaker.netease.com"
+
+_reload_all: true
+
+
+-- End of hexm.common.consts.audio_consts

@@ -1,0 +1,19 @@
+-- ======================================================================
+-- Module: hexm.client.entities.server.player_avatar_members.pvp_world_members.imp_pvp_world_behavior
+-- Source: package.loaded
+-- Type: table
+-- Order: #1267
+-- ======================================================================
+
+-- Module type: table
+
+PlayerAvatarMember: class {
+  -- Metatable:
+  --   __tostring: yes
+  ctor: function(...)  -- =[C]
+  new: function(...)  -- =[C]
+  pvp_behavior_do_event: function(arg1, arg2, arg3, arg4)  -- @hexm/client/entities/server/player_avatar_members/pvp_world_members/imp_pvp_world_behavior.lua:11-16
+}
+
+
+-- End of hexm.client.entities.server.player_avatar_members.pvp_world_members.imp_pvp_world_behavior

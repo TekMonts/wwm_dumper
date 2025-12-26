@@ -1,0 +1,104 @@
+-- ======================================================================
+-- Module: hexm.common.consts.online_recommendation_consts
+-- Source: package.loaded
+-- Type: table
+-- Order: #4420
+-- ======================================================================
+
+-- Module type: table
+
+CONFIRM_STATE_DONE: 4
+
+CONFIRM_STATE_LEADER_REJECT: 3
+
+CONFIRM_STATE_MEMBER_REJECT_NOTIFY: 6
+
+CONFIRM_STATE_NO_CONFIRM: 1
+
+CONFIRM_STATE_REJECT: 5
+
+CONFIRM_STATE_WAIT_LEADER: 2
+
+COOP_MATCH_TYPE_MAIN: "main"
+
+COOP_MATCH_TYPE_SIDEPAGE: "sidepage"
+
+COOP_MATCH_TYPE_TIANYAKE: "tianyake"
+
+ERR_FORMAT_INVALID: 5
+
+ERR_HAS_TAG_ERROR: 3
+
+ERR_NOT_SATISFY_USE_SCENE: 2
+
+ERR_NOT_USE_UX: 0
+
+ERR_PEOPLE_NOT_ENOUGH: 1
+
+ERR_RETURN_TIMEOUT: 4
+
+MATCH_SOURCE_OTHER: 4
+
+MATCH_SOURCE_POST: 1
+
+MATCH_SOURCE_REGION: 3
+
+MATCH_SOURCE_TIANYAKE: 2
+
+MATCH_STATE_MATCHING: 1
+
+MATCH_STATE_MATCH_CONFIRM: 2
+
+MATCH_STATE_MATCH_WAIT_LEADER: 3
+
+MATCH_STATE_PADDING: 2
+
+MATCH_TYPE_LEADER: 1
+
+MATCH_TYPE_MEMBER: 2
+
+RECOMMEND_TYPE_2_SOCIAL_RECOMM_SCENE_TYPE: table {
+  20: 1
+  21: 2
+  22: 3
+  23: 4
+}
+
+SOCIAL_RECOMM_FAST_REQUEST_TIMEOUT: 3
+
+SOCIAL_RECOMM_GAMEID: "h72"
+
+SOCIAL_RECOMM_ORDERID: "1089649754"
+
+SOCIAL_RECOMM_RECOMMENDATION_PATH: "/recommender/guess"
+
+SOCIAL_RECOMM_SCENE_TYPE_2_RECOMMEND_TYPE: list [20, 21, 22, 23]
+
+SOCIAL_RECOMM_SCENE_TYPE_FRIEND: 1
+
+SOCIAL_RECOMM_SCENE_TYPE_ONLINE: 2
+
+SOCIAL_RECOMM_SCENE_TYPE_SHADOW: 4
+
+SOCIAL_RECOMM_SCENE_TYPE_TEAM: 3
+
+SOCIAL_RECOMM_SERVER_URL_NORMAL: "h72-udataresys.nie.netease.com:8443"
+
+SOCIAL_RECOMM_SERVER_URL_TEST: "udataresys-dev.nie.netease.com:8443"
+
+SOCIAL_RECOMM_SERVER_URL_TEST_IN: "udataresys.nie.netease.com:8443"
+
+SOCIAL_RECOMM_TOKEN: "daF1kKBQ1UBpuvd"
+
+WAITING_TYPE_HAS_LEADER: 1
+
+WAITING_TYPE_NO_LEADER: 2
+
+WAITING_TYPE_TIMEOUT: 3
+
+_reload_all: true
+
+get_position_region_info: function(arg1)  -- @hexm/common/consts/online_recommendation_consts.lua:40-59
+
+
+-- End of hexm.common.consts.online_recommendation_consts

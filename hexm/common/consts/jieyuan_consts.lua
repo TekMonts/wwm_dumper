@@ -1,0 +1,495 @@
+-- ======================================================================
+-- Module: hexm.common.consts.jieyuan_consts
+-- Source: package.loaded
+-- Type: table
+-- Order: #1037
+-- ======================================================================
+
+-- Module type: table
+
+CONSENT_DIVORCE_STATE_DESTROY: 2
+
+CONSENT_DIVORCE_STATE_INIT: 0
+
+CONSENT_DIVORCE_STATE_KEEP: 1
+
+CONSENT_DIVORCE_VOTE_ID: "vote_id_consent_divorce"
+
+DIVORCE_CONSENT_PAY_DEC_REASON: "consent divorce, dec money"
+
+DIVORCE_ONEWAY_PAY_DEC_REASON: "oneway divorce, dec money"
+
+DIVORCE_ONEWAY_PAY_RETURN_REASON: "oneway divorce, return unused money"
+
+ERR_GUYUN_CHAT_BLACK: 231508
+
+ERR_GUYUN_HASBLESS: 231510
+
+ERR_GUYUN_HAS_REFUSED: 510785
+
+ERR_GUYUN_HAS_SEND_EMAIL: 231509
+
+ERR_GUYUN_IGNORE_NOT_TIMEOUT: 231506
+
+ERR_GUYUN_NOT_INVITE: 231511
+
+ERR_GUYUN_QIANREN_NOT_IN_TEAM: 231513
+
+ERR_GUYUN_REQCD: 231507
+
+ERR_GUYUN_TEAM_HAS_OTHER: 231514
+
+ERR_GUYUN_XIALV_NOT_IN_TEAM: 231512
+
+ERR_NOT_HAVE_QIANREN: 231504
+
+ERR_NOT_IN_GUYUN: 231505
+
+EVENT_ADD_JIEYUAN_COIN: "EVENT_JIEYUAN_ADD_JIEYUAN_COIN"
+
+EVENT_ADD_JIEYUAN_TOKEN: "EVENT_JIEYUAN_ADD_JIEYUAN_TOKEN"
+
+EVENT_CLIENT_PRINT_JIEYUAN_DATA: "EVENT_CLIENT_PRINT_JIEYUAN_DATA"
+
+EVENT_COMMON_INTERRUPT: "common_interrupt"
+
+EVENT_CONSENT_DIVORCE_SELECT_LOCK: "EVENT_JIEYUAN_CONSENT_DIVORCE_SELECT_LOCK"
+
+EVENT_CREATE_JIEYUAN: "EVENT_JIEYAUN_CREATE_JIEYUAN"
+
+EVENT_DEC_JIEYUAN_COIN: "EVENT_JIEYUAN_DEC_JIEYUAN_COIN"
+
+EVENT_DIVORCE_ONEWAY: "EVENT_JIEYUAN_DIVORCE_ONEWAY"
+
+EVENT_DIVORCE_ONEWAY_CANCEL: "EVENT_JIEYUAN_DIVORCE_ONEWAY_CANCEL"
+
+EVENT_DIVORCE_ONEWAY_FINAL: "EVENT_JIEYUAN_DIVORCE_ONEWAY_FINAL"
+
+EVENT_DIVORCE_PROPOSE_CONSENT_DIVORCE: "EVENT_JIEYUAN_DIVORCE_PROPOSE_CONSENT_DIVORCE"
+
+EVENT_DIVORCE_START_CONSENT_DIVORCE: "EVENT_JIEYUAN_DIVORCE_START_CONSENT_DIVORCE"
+
+EVENT_DIVORCE_WANHU: "EVENT_JIEYUAN_DIVORCE_WANHU"
+
+EVENT_DIVORCE_WANHU_REPLY: "EVENT_JIEYUAN_DIVORCE_WANHU_REPLY"
+
+EVENT_EDIT_APPLY_EDIT: "EVENT_JIEYUAN_EDIT_APPLY_EDIT"
+
+EVENT_EDIT_CANCEL_FINISH_EDIT: "EVENT_JIEYUAN_EDIT_CANCEL_FINISH_EDIT"
+
+EVENT_EDIT_FINISH_EDIT: "EVENT_JIEYUAN_EDIT_FINISH_EDIT"
+
+EVENT_EDIT_GIVEUP_EDIT: "EVENT_JIEYUAN_EDIT_GIVEUP_EDIT"
+
+EVENT_EDIT_INTERRUPT: "EVENT_JIEYUAN_EDIT_INTERRUPT"
+
+EVENT_EDIT_SEND_TEXT: "EVENT_JIEYUAN_EDIT_SEND_TEXT"
+
+EVENT_FINISH_PROPOSE_MARRY: "EVENT_JIEYUAN_FINISH_PROPOSE_MARRY"
+
+EVENT_GET_STAGE_REWARD: "EVENT_GET_STAGE_REWARD"
+
+EVENT_GUYUN_START_COMMIT: "event_guyun_start_commit"
+
+EVENT_JIEYUAN_CHANGE_TAG: "jieyuan_change_tag"
+
+EVENT_JIEYUAN_COUPLE_CHANGE_NAME: "EVENT_JIEYUAN_COUPLE_CHANGE_NAME"
+
+EVENT_JIEYUAN_DECOUPLE_NOTIFY: "EVENT_JIEYUAN_DECOUPLE_NOTIFY"
+
+EVENT_JIEYUAN_DIVORCE_FINISHED: "EVENT_JIEYUAN_DIVORCE_FINISHED"
+
+EVENT_JIEYUAN_GET_DECOUPLE_STATE: "EVENT_JIEYUAN_GET_DECOUPLE_STATE"
+
+EVENT_JIEYUAN_GET_STUFF_USE: "EVENT_JIEYUAN_GET_STUFF_USE"
+
+EVENT_JIEYUAN_GET_TEAM_STATE: "EVENT_JIEYUAN_GET_TEAM_STATE"
+
+EVENT_JIEYUAN_LEVEL: "EVENT_JIEYUAN_LEVEL"
+
+EVENT_JIEYUAN_SEND_GIFT_ADD_JIEYUAN_COIN: "EVENT_JIEYUAN_SEND_GIFT_ADD_JIEYUAN_COIN"
+
+EVENT_JIEYUAN_SKILLS_SWITCH: "EVENT_JIEYUAN_SKILLS_SWITCH"
+
+EVENT_JIEYUAN_STAGE_GET_GIFT: "EVENT_JIEYUAN_STAGE_GET_GIFT"
+
+EVENT_JIEYUAN_START_PICYURE: "EVENT_JIEYUAN_START_PICTURE"
+
+EVENT_JIEYUAN_UPDATE: "EVENT_JIEYUAN_UPDATE"
+
+EVENT_JUBAO: "EVENT_JIEYUAN_JUBAO"
+
+EVENT_MARRY_CHAT: "EVENT_JIEYUAN_MARRY_CHAT"
+
+EVENT_MARRY_DO_PAY: "EVENT_JIEYUAN_MARRY_DO_PAY"
+
+EVENT_MARRY_PULL_LOCK_NOTIFY: "EVENT_JIEYUAN_MARRY_PULL_LOCK_NOTIFY"
+
+EVENT_NOTIFY_ADD_FAKE_TASK: "EVENT_NOTIFY_ADD_FAKE_TASK"
+
+EVENT_NOTIFY_FAKE_TASK_STATE_CLEAR: "EVENT_NOTIFY_FAKE_TASK_STATE_CLEAR"
+
+EVENT_NOTIFY_NPC_TALK_OVER: "EVENT_NOTIFY_NPC_TALK_OVER"
+
+EVENT_REPLY_MARRY: "EVENT_JIEYUAN_REPLY_MARRY"
+
+EVENT_START_ASK_MARRY: "EVENT_JIEYUAN_START_ASK_MARRY"
+
+EVENT_START_PROPOSE_MARRY: "EVENT_JIEYUAN_START_PROPOSE_MARRY"
+
+E_ALREADY_IN_JIEYUAN: 960057
+
+E_ALREADY_MARRY: 960046
+
+E_APPLY_EDIT_RIGHT_FAILED: 960054
+
+E_D_EVENT_JIEYUAN_CHANGE: "e_d_event_jieyuan_change"
+
+E_D_EVENT_JIEYUAN_COIN: "e_d_event_jieyuan_coin"
+
+E_D_EVENT_JIEYUAN_DIVORCE: "e_d_event_jieyuan_divorce"
+
+E_D_EVENT_JIEYUAN_FUND_NONSTOP_DUMMY: "e_d_event_jieyuan_fund_nonstop_dummy"
+
+E_GAME_NOT_OPEN_WHEN_SERVER_IS_CLOSING: 960033
+
+E_INVALID_MARRY_PID: 960041
+
+E_IN_EDIT_FINISH_STATE: 960051
+
+E_JIEYUAN_BENEFIT_ADD: "e_jieyuan_benefit_add"
+
+E_JIEYUAN_BENEFIT_CLOSE: "e_jieyuan_benefit_close"
+
+E_JIEYUAN_BENEFIT_INFO_TITLE: 960077
+
+E_JIEYUAN_CANN0T_REPEAT_ADD_FAKE_TASK: 960097
+
+E_JIEYUAN_COIN_LACK: 960067
+
+E_JIEYUAN_CONSENT_DIVORCE_LACK_MONEY_OTHERS: 960066
+
+E_JIEYUAN_CONSENT_DIVORCE_LACK_MONEY_SELF: 960065
+
+E_JIEYUAN_CONSENT_DIVORCE_TARGET_NOT_EXIST: 960064
+
+E_JIEYUAN_CREATE_JIEYUAN_IN_CD: 960078
+
+E_JIEYUAN_CREATE_JIEYUAN_IN_CD_2: 960269
+
+E_JIEYUAN_DEFAULT_TEXT: 960083
+
+E_JIEYUAN_DELAY_DIVORCE_LACK_MONEY: 960063
+
+E_JIEYUAN_HAS_JIELV: 960522
+
+E_JIEYUAN_ILLEGAL_TEXT: 960082
+
+E_JIEYUAN_NOT_EXIST: 960058
+
+E_JIEYUAN_NOT_IN_COOL: 960210
+
+E_JIEYUAN_NOT_IN_RIGHT_STATE: 960069
+
+E_JIEYUAN_NOT_JIEYUAN_GIFT_STUFF: 960070
+
+E_JIEYUAN_NOT_JIEYUAN_MEMBER: 960059
+
+E_JIEYUAN_NOT_OUT_COOL: 960211
+
+E_JIEYUAN_NOT_REPEAT_DIVORCE: 960061
+
+E_JIEYUAN_NOT_YOU_DIVORCE: 960212
+
+E_JIEYUAN_NO_JIEYUAN: 960062
+
+E_JIEYUAN_NO_NEED_CANCEL_DIVORCE: 960060
+
+E_JIEYUAN_NPC_TALK_CANNOT_FIND_TARGET: 960068
+
+E_JIEYUAN_RANK_NOT_INIT_FINISH: 960080
+
+E_JIEYUAN_REACH_DAILY_LIMIT: 960081
+
+E_JIEYUAN_SKILL_AND_BENEIFT_INFO: 960071
+
+E_JIEYUAN_SKILL_AND_BENEIFT_INFO_TITLE: 960072
+
+E_JIEYUAN_SKILL_INFO_CONTENT: 960075
+
+E_JIEYUAN_SKILL_INFO_CONTENT2: 960076
+
+E_JIEYUAN_SKILL_INFO_TITLE: 960074
+
+E_JIEYUAN_TARGET_CANN0T_REPEAT_ADD_FAKE_TASK: 960079
+
+E_JIEYUAN_TOTAL_SCORES: 960073
+
+E_LEVEL_NOT_ENOUGH: 960752
+
+E_MARRY_ALREADY_EDIT: 960049
+
+E_MARRY_FREE: 960056
+
+E_MARRY_LACK_MONEY: 960047
+
+E_MARRY_OVER_TIME: 960048
+
+E_NOT_AROUND: 960037
+
+E_NOT_ENOUGH_FRIEND_FAVOR: 960045
+
+E_NOT_ENOUGH_INTIMACY: 960043
+
+E_NOT_FOLLOW: 960038
+
+E_NOT_FRIEND: 960044
+
+E_NOT_HAVE_EDIT_RIGHT: 960053
+
+E_NOT_IN_EDIT_STATE: 960050
+
+E_NOT_IN_SAME_SPACE: 960039
+
+E_NOT_IN_TEAM: 960034
+
+E_NOT_LEADER: 960035
+
+E_NOT_SPE_FOLLOW: 960042
+
+E_NO_NEED_GIVEUP_EDIT_RIGHT: 960055
+
+E_OK: 0
+
+E_OTHER_NOT_IN_EDIT_STATE: 960052
+
+E_PARA_INVITE: 960060
+
+E_TEAMMATE_NOT_ONLINE: 960040
+
+E_WRONG_TEAM_SIZE: 960036
+
+GUYUN_INVITE_BEREFUSE: "qianren_berefused"
+
+GUYUN_INVITE_FINISH: "guyun_invite_finish"
+
+GUYUN_INVITE_QIANREN: "guyun_invite_qianren"
+
+GUYUN_INVITE_REFUSE: "guyun_invite_refuse"
+
+GUYUN_NOTIFY_QIANREN: "guyun_notify_qianren"
+
+GUYUN_REMOTE_BLESS: "remote_bless"
+
+JIEYUAN_ADD_COIN: "add_jieyuan_coin"
+
+JIEYUAN_ADD_COIN_REASON_CHAT: "chat, add jieyuan daily coin "
+
+JIEYUAN_ADD_COIN_REASON_TEAM: "team with jieyuan target, add jieyuan daily coin "
+
+JIEYUAN_CANCEL_RM_JIEYUAN_WITH_DELAY: "cancel_remove_jieyuan_with_delay"
+
+JIEYUAN_CAPACITY: 2
+
+JIEYUAN_CAPACITY_GUYUN: 4
+
+JIEYUAN_COIN_LIMIT_TYPES: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 1
+  2: 2
+}
+
+JIEYUAN_COIN_LIMIT_TYPE_1: 1
+
+JIEYUAN_COIN_LIMIT_TYPE_2: 2
+
+JIEYUAN_COUNTDOWN_DELAY: 10
+
+JIEYUAN_CREATE_JIEYUAN: "create_jieyuan"
+
+JIEYUAN_DEC_COIN: "dec_jieyuan_coin"
+
+JIEYUAN_DIVORCED: 2
+
+JIEYUAN_EDIT_BLESS_STATE_NO: 0
+
+JIEYUAN_EDIT_BLESS_STATE_YES: 1
+
+JIEYUAN_EDIT_STATE_FINISH: 2
+
+JIEYUAN_EDIT_STATE_READ: 0
+
+JIEYUAN_EDIT_STATE_WRITE: 1
+
+JIEYUAN_EVENT_SPECIAL: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: "jieyuan_create_jieyuan_back"
+  2: "jieyuan_remove_jieyuan_with_delay_back"
+}
+
+JIEYUAN_GET_EXTRA_STAGE_REWARD: "jieyuan_get_extra_stage_reward"
+
+JIEYUAN_GET_QIFU_REWARD: "jieyuan_get_qifu_reward"
+
+JIEYUAN_GET_STAGE_REWARD: "jieyuan_get_stage_reward"
+
+JIEYUAN_GOING_TO_DIVORCE: 1
+
+JIEYUAN_NOT_DIVORCE: 0
+
+JIEYUAN_QIFU: "jieyuan_qifu"
+
+JIEYUAN_RM_JIEYUAN: "remove_jieyuan"
+
+JIEYUAN_RM_JIEYUAN_WITH_DELAY: "remove_jieyuan_with_delay"
+
+JIEYUAN_SEND_STUFF: "send_jieyuan_stuff"
+
+JIEYUAN_SKILLS_SWITCH: "jieyuan_skills_switch"
+
+JIEYUAN_STAGE_TEXT_KEY: "stage_text_"
+
+JY_BENEFIT_CHAR: 4
+
+JY_BENEFIT_FUND: 8
+
+JY_BENEFIT_HOME: 6
+
+JY_BENEFIT_HORSE: 7
+
+JY_BENEFIT_PET: 5
+
+JY_RELATION_TASK_RED_POINT: "jieyuan_relation_task_red_point"
+
+JY_UI_DB_KEY: "JIEYUAN_UI_DB_KEY"
+
+JY_UNLOCK_ID: 370
+
+MARRIED_STATE: 2
+
+MARRY_PAY_DEC_REASON: "dec marry pay"
+
+NOTIFY_OPEN_UI_TYPE_DIVORCE: 1
+
+NOTIFY_OPEN_UI_TYPE_JIEYUAN: 0
+
+NOTIFY_OPEN_UI_TYPE_STAGE: 2
+
+PROCESS_DIVORCE_BOTH: 3
+
+PROCESS_DIVORCE_ONE: 4
+
+PROCESS_EDIT_MESSAGE: 2
+
+PROCESS_MARRY: 1
+
+PURPOSE_JIEYUAN: "jieyuan"
+
+PURPOSE_JIEYUAN_STAGE_GIFT: "stage_gift_%s"
+
+PURPOSE_JIEYUAN_STAGE_GIFT_PRE: "stage_gift_"
+
+REFRESH_DELAY: 10
+
+REWARD_STATE: 3
+
+STATE_FAKE_DECOUPLE: 4
+
+STATE_JIEYUAN: 1
+
+STATE_MEET: 2
+
+STATE_SINGLE: 3
+
+TAG_COUPLE: 2
+
+TAG_COUPLE_PREDECESSOR: 4
+
+TAG_LEADER: 1
+
+TAG_LEADER_PREDECESSOR: 3
+
+UNMARRIED_STATE: 1
+
+XIAYUAN_BEIDONG: 9
+
+XIAYUAN_FUND: 8
+
+XIAYUAN_HOMELAND: 6
+
+XIAYUAN_MINGGE: 4
+
+XIAYUAN_MOUNT: 7
+
+XIAYUAN_PET: 5
+
+XIAYUAN_RESCUE: 2
+
+XIAYUAN_RESUSCITATION: 3
+
+XIAYUAN_TELEPORT: 1
+
+_reload_all: true
+
+edit_mem: "mem"
+
+edit_pid: "edit_pid"
+
+edit_purpose: "purpose"
+
+format_xialv_info: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:126-141
+
+get_couple_pid_by_jid: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:32-46
+
+get_guyun_jielv_members: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:459-474
+
+get_guyun_qianren_invite_remain_time: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:488-498
+
+get_guyun_rec: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:436-439
+
+get_guyun_rec_is_auto_blessed: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:447-451
+
+get_guyun_rec_is_refused: function(arg1, arg2, arg3)  -- @hexm/common/consts/jieyuan_consts.lua:441-445
+
+get_guyun_rec_is_remote_blessed: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:453-457
+
+get_guyun_req: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:413-416
+
+get_guyun_req_is_auto_blessed: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:424-428
+
+get_guyun_req_is_refused: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:418-422
+
+get_guyun_req_is_remote_blessed: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:430-434
+
+get_jid_key: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:23-30
+
+get_max_valid_xialv_lv: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:71-87
+
+get_qianren: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:401-403
+
+get_qianren_id: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:405-411
+
+get_xialv_level: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:48-69
+
+get_xialv_nickname: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:143-157
+
+is_can_create_new_xialv: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:106-116
+
+is_guyun_qianren_invite_in_cd: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:476-486
+
+is_guyun_with_qianren: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:369-374
+
+is_has_xialv: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:118-124
+
+is_my_xialv: function(arg1, arg2)  -- @hexm/common/consts/jieyuan_consts.lua:89-104
+
+is_need_qianren_join: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:376-385
+
+is_qianren_join: function(arg1)  -- @hexm/common/consts/jieyuan_consts.lua:388-399
+
+
+-- End of hexm.common.consts.jieyuan_consts

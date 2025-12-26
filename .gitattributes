@@ -1,0 +1,1 @@
+hexm/common/data/dir_object.lua filter=lfs diff=lfs merge=lfs -text

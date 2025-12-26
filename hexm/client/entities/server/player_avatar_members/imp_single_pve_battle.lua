@@ -1,0 +1,19 @@
+-- ======================================================================
+-- Module: hexm.client.entities.server.player_avatar_members.imp_single_pve_battle
+-- Source: package.loaded
+-- Type: table
+-- Order: #2760
+-- ======================================================================
+
+-- Module type: table
+
+PlayerAvatarMember: class {
+  -- Metatable:
+  --   __tostring: yes
+  ctor: function(...)  -- =[C]
+  new: function(...)  -- =[C]
+  single_pve_battle_do_event: function(arg1, arg2, arg3, arg4)  -- @hexm/client/entities/server/player_avatar_members/imp_single_pve_battle.lua:13-126
+}
+
+
+-- End of hexm.client.entities.server.player_avatar_members.imp_single_pve_battle

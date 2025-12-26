@@ -1,0 +1,125 @@
+-- ======================================================================
+-- Module: hexm.common.consts.porridge_shop_consts
+-- Source: package.loaded
+-- Type: table
+-- Order: #6228
+-- ======================================================================
+
+-- Module type: table
+
+ADD_RISE_AND_FIREWOOD: "add_rice_and_firewoode"
+
+ADD_WATCH_NPC: "add_watch_npc"
+
+ADD_WORLD_PRO: "add_world_progress"
+
+AI_CTRL_ID: 200003
+
+AI_REGION_ID: 88
+
+ALREADY_INTERACT: 230231
+
+CANNOT_INTERACT: 230235
+
+CHANGE_INTRODUCE: "change_introduce"
+
+CHANGE_OPEN_STATE: "change_open_state"
+
+COOK_COMPLETE_FERFECT: "perfect porridge"
+
+COOK_COMPLETE_NORMAL: "normal porridge"
+
+COOK_OVERLOAD: 230272
+
+COOK_TIMES_MAX: 230233
+
+CREATE_SHOP: "create_shop"
+
+END_SHOP: "end_shop"
+
+ERR_DATA: 130023
+
+ERR_LOCK_FIREWOOD: 130012
+
+ERR_LOCK_MEDICINE: 130025
+
+ERR_LOCK_RISE: 130011
+
+ERR_MAX_SHOP: 230364
+
+ERR_NAME_HAS_SENSITIVE: 130244
+
+ERR_NO_GANG: 230227
+
+ERR_OK: 0
+
+ERR_OK_PUT_SHOP: 230226
+
+ERR_PUT_TIMES_MAX: 230228
+
+ERR_SHOP_LIMIT: 130010
+
+ERR_SHOP_POSITION: 130010
+
+ERR_SPACE: 130024
+
+E_FETCH_XS: "e_fetch_xs"
+
+FIRE_WATCH_NPC: "fire_watch_npc"
+
+GENARATE_RANDOM_NPC: "generate_random_npc"
+
+GET_SHOP_DATA: "get_shop_data"
+
+GET_WORLD_PRO: "get_world_progress"
+
+MAX_SHOP_NUM: 20
+
+MAX_SHOP_SPACE: 1000
+
+NOT_WATCH_NPC: 130021
+
+NOT_YOUR_GANG: 230230
+
+NO_DISASTER: 230229
+
+OVER_MAX_FIREWOOD: 130027
+
+OVER_MAX_MEDICINE: 130028
+
+OVER_MAX_RICE: 130026
+
+PLEASE_INPUT_SLOG: 130017
+
+PORRIDGE_XS: "porridge_shop_xs"
+
+PORRIDGE_XS_TYPE: 1000
+
+REDUCE_RISE_AND_FIREWOOD: "reduce_rice_and_firewoode"
+
+REWARD_TIMES_MAX: 230232
+
+SERVE_TASK_DUP: 230271
+
+SERVE_TIMES_MAX: 230234
+
+SHOP_CREATE_FAILED: 130010
+
+SHOP_ERROR_MONEY: 130016
+
+SHOP_ERROR_MONEY_CREATE_SHOP: 130008
+
+SHOP_ERROR_MONEY_WATCH_NPC: 130009
+
+SHOP_EXIST: 130015
+
+SHOP_LOCK_MONEY: 130008
+
+SHOP_LOCK_NPC_MONEY: 130009
+
+SHOP_NOT_EXIST: 130014
+
+SHOP_NO_TASK: 130022
+
+
+-- End of hexm.common.consts.porridge_shop_consts

@@ -1,0 +1,71 @@
+-- ======================================================================
+-- Module: hexm.client.ui.windows.fish.fish_game_consts
+-- Source: package.loaded
+-- Type: table
+-- Order: #5973
+-- ======================================================================
+
+-- Module type: table
+
+FISHING_ANIM: "fishing_anim"
+
+FISHING_CORE: "fishing_core"
+
+FISHING_LEAVE: "fishing_game_leave"
+
+FISHING_WAIT: "fishing_wait"
+
+FISH_CONTEST_NORMAL: 0
+
+FISH_CONTEST_PVE: 1
+
+FISH_CONTEST_PVP: 2
+
+FISH_GAME_CONTEST_SKILL_PANEL_PRIORITY: 99
+
+FISH_GAME_DEFAULT_PANEL: 410
+
+FISH_GAME_FAIL_LIMIT_ZERO: 1
+
+FISH_GAME_FAIL_TIME_OUT: 0
+
+FISH_GAME_FINISH_HIT_NO: 5
+
+FISH_GAME_GET_FISH_PANEL: 66
+
+FISH_GAME_PLAY_HIT_NO: 4
+
+FISH_GAME_PREPARE_DUANYOU_HIT_NO: 60
+
+FISH_GAME_PREPARE_HIT_NO: 59
+
+FISH_GAME_SKILL_PANEL_PRIORITY: 100
+
+FISH_GAME_THROW_SKILL_PANEL: 65
+
+FISH_GAME_THROW_SKILL_PANEL_PC: 9999
+
+FISH_GAME_UI_HIDE_NO: 9
+
+FISH_GAME_WAIT_HIT_NO: 3
+
+FISH_IDLE_ANIM_IDX: 13
+
+FISH_MODEL_ATTACH_NO: 8
+
+FISH_ROD_HAND_LINK_MODE: 25
+
+FISH_ROD_SLOT: 105
+
+MOBILE_FISH_GAME_PANEL_ID: 6403
+
+MOBILE_FISH_GET_FISH_PANEL_ID: 6404
+
+MOBILE_FISH_START_PANEL_ID: 6401
+
+MOBILE_FISH_WAIT_PANEL_ID: 6402
+
+PC_FISH_PANEL_ID: 206
+
+
+-- End of hexm.client.ui.windows.fish.fish_game_consts

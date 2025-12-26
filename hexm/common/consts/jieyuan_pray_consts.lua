@@ -1,0 +1,131 @@
+-- ======================================================================
+-- Module: hexm.common.consts.jieyuan_pray_consts
+-- Source: package.loaded
+-- Type: table
+-- Order: #504
+-- ======================================================================
+
+-- Module type: table
+
+EVENT_ACT: "act"
+
+EVENT_ADD_FAVOR: "add_favor"
+
+EVENT_ASK_FOR_REAL_NAME: "ask_for_real_name"
+
+EVENT_ASK_FOR_REAL_NAME_NOTIFY: "ask_for_real_name_notify"
+
+EVENT_CAN_REAL_NAME: "can_real_name"
+
+EVENT_CHAT: "chat"
+
+EVENT_DROP: "drop"
+
+EVENT_DROP_NOTIFY: "drop_notify"
+
+EVENT_ENTER_SPACE: "enter"
+
+EVENT_FINISH_TASK: "finish_task"
+
+EVENT_PHOTO_FINISH: "photo_finish"
+
+EVENT_PRAY: "pray"
+
+EVENT_REAL_NAME_CONFIRM: "real_name_confirm"
+
+EVENT_SEARCH: "search"
+
+EVENT_TASK_FETCH: "fetch_task"
+
+EVENT_TASK_PHOTO: "take_photo"
+
+EVENT_TASK_REMOVE: "task_remove"
+
+E_ADD_FAVOR_DIST_LIMIT: 157181
+
+E_ADD_FAVOR_LIMIT: 157180
+
+E_ASK_FOR_REAL_NAME: 960105
+
+E_DROP_PID_NOT_EXIT: 960104
+
+E_ENTER_SPACE_TASK_LIMIT: 157179
+
+E_ENTER_SPACE_TEAM_LIMIT: 157178
+
+E_FETCH_TASK_OTHER_NUM_LIMIT: 157198
+
+E_FETCH_TASK_SELF_NUM_LIMIT: 157197
+
+E_PHOTO_TASK_NOT_FINISH: 157218
+
+E_PID_ALREADY_IN_TASK: 157176
+
+E_PID_ALREADY_TASK_LIMIT: 157177
+
+E_PRAY_NUM_LIMIT: 960098
+
+E_RPC_CD: 960109
+
+E_SEARCH_IN_CD: 960107
+
+E_SEARCH_NEED_PRAY_FIRST: 960108
+
+E_SEARCH_NO_PIDS: 960102
+
+E_SEARCH_NUM_LIMIT: 960101
+
+E_SEARCH_PID_IN_CHAT: 960103
+
+E_SENSITIVE_CHECK: 960099
+
+E_TOTAL_CHAT_NUM_LIMIT: 960100
+
+E_TO_PID_OFFLINE: 960106
+
+PID_NUM: 10
+
+PRAY_TIMER: "_jieyuan_pray_timer"
+
+REFRESH_DAILY: 1
+
+REFRESH_WEEKLY: 2
+
+RPC_CD: 5
+
+SEARCH_TIMER: "_jieyuan_search_timer"
+
+STATE_CHAT: -1
+
+STATE_CHAT_CAN_UNLOCK: -2
+
+STATE_CHAT_REAL_NAME: -3
+
+STATE_TASK_DOING: -4
+
+STATE_TASK_FINISH: -5
+
+STATE_TASK_REMOVE: -6
+
+SYS_MSG_CAN_REAL_NAME: 157212
+
+SYS_MSG_FETCH_TASK: 157213
+
+SYS_MSG_FIRST_CHAT: 157211
+
+TASK_PRAY: 2
+
+TASK_XIEHOU: 1
+
+US_TYPE: 2
+
+US_TYPE_DOUBLE_INSTANCE: 1
+
+US_TYPE_PRAY: 5
+
+WTYPE: "jieyuan_pray"
+
+_reload_all: true
+
+
+-- End of hexm.common.consts.jieyuan_pray_consts
