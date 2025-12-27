@@ -1,4 +1,4 @@
-# Where Winds Meet – Buff Data Dump (Learning Purpose)
+# Where Winds Meet – Data Dump (Learning Purpose)
 
 This project is created **strictly for learning and research purposes**.
 
