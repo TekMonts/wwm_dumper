@@ -1,0 +1,1064 @@
+-- ======================================================================
+-- Module: hexm.client.ui.windows.home.home_blood.home_blood_liupai_buff_controller
+-- Source: package.loaded
+-- Type: table
+-- Order: #6345
+-- ======================================================================
+
+-- Module type: table
+
+BUFF_VIEW_DICT: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: instance {
+    -- Metatable:
+    --   __index: table
+    --   __tostring: yes
+    view_class: class {
+      -- Metatable:
+      --   __tostring: yes
+      ANIMS: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        1: "vx_in"
+        2: "vx_number_add"
+        3: "vx_unlock_in"
+        4: "vx_unlock_loop"
+        5: "vx_unlock_out"
+        6: "vx_out"
+      }
+      CSB_NAME: "UIScript/home_buff_v2_liupaita_qianghua_lan.csb"
+      DESC: "controller简介：通用的buff图标controller，请使用set_data接口设..."
+      DYNAMIC_LOAD_TEMPLATE: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        template_focus_sel_view: instance {
+          -- Metatable:
+          --   __index: table
+          --   __tostring: yes
+          1: ""
+          2: class {
+            -- Metatable:
+            --   __tostring: yes
+            ANIMS: instance {
+              -- Metatable:
+              --   __index: table
+              --   __tostring: yes
+              1: "vx_focus_in"
+              2: "vx_focus_loop"
+            }
+            CSB_NAME: "UIScript/com_focus_sel.csb"
+            DYNAMIC_LOAD_TEMPLATE: nil
+            NODES_INDEX_OVERSEA_MAPPING: <dict>
+            NODES_INDEX_PATH: instance {
+              -- Metatable:
+              --   __index: table
+              --   __tostring: yes
+              image_frame: list ["", <nested>]
+              image_frame_white: list ["", <circular>]
+              image_sanjiao: list ["", <circular>]
+              particle_3171: list ["", <nested>]
+              particle_3171_1: list ["", <circular>]
+              particle_3171_2: list ["", <circular>]
+              particle_3175: list ["", <circular>]
+              particle_3175_1: list ["", <circular>]
+              particle_3175_2: list ["", <circular>]
+              particle_3176: list ["", <circular>]
+              particle_3176_2: list ["", <circular>]
+              particle_3176_3: list ["", <circular>]
+              particle_3178_1: list ["", <circular>]
+              particle_3178_2: list ["", <circular>]
+              particle_3178_3: list ["", <circular>]
+              root_attach: list ["", <circular>]
+              vx_bottom_par: list ["", <circular>]
+              vx_glow: list ["", <circular>]
+              vx_glow_1: list ["", <circular>]
+              vx_image_sanjiao: list ["", <circular>]
+              vx_left_par: list ["", <circular>]
+              vx_node: list ["", <circular>]
+              vx_right_par: list ["", <circular>]
+              vx_top_par: list ["", <circular>]
+            }
+            REFERENCE_PNG: instance {
+              -- Metatable:
+              --   __index: table
+              --   __tostring: yes
+              1: "com_focus_btn_square_s_0_0_ui"
+              2: "com_focus_shadow_square_s_0_0_ui"
+              3: "com_focus_triangle_0_0_ui"
+              4: "vx_com_focus_btn_square_s_0_0_ui"
+              5: "vx_snow_lizi_0_0_ui"
+            }
+            TAGS: <dict>
+            VLC: nil
+            __index: nil
+            __module__: "hexm/client/ui/generated_view/com_focus_sel_view.lua"
+            _get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:275-281
+            _load_and_get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:224-247
+            _load_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:249-273
+            _on_anim_event_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:214-222
+            async_load_textures_check_or_init_data: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:482-491
+            async_load_textures_clear_textures: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:493-508
+            async_preload_csb_textures: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:510-523
+            check_and_play_anim_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:463-470
+            check_and_play_anim_stop_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:472-479
+            clear_attr_values: nil
+            clear_dynamic_views: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:103-112
+            clear_last_frame_callback: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:449-454
+            ctor: function(arg1, arg2)  -- @hexm/client/ui/generated_view/com_focus_sel_view.lua:85-98
+            destroy_object: function(arg1)  -- @hexm/client/ui/generated_view/com_focus_sel_view.lua:116-119
+            generate_children_view: nil
+            get_anim_info: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:419-424
+            get_anim_sound_key: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:457-461
+            get_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:83-89
+            get_frame_internal: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:426-432
+            get_frame_number: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:434-440
+            get_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:204-207
+            get_tag_nodes: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:629-641
+            get_win_in_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:617-619
+            get_window_out_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:625-627
+            has_anim_playing: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:399-411
+            init_platform_diffs: nil
+            is_anim_exists: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:413-417
+            is_anim_playing: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:394-397
+            is_in_anim_looping: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:199-202
+            jump_to_anim_frame: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:345-359
+            jump_to_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:361-364
+            jump_to_frame_and_play: function(arg1, arg2, arg3, arg4, arg5)  -- @hexm/client/ui/struct/csb_interface.lua:315-328
+            jump_to_frame_and_play_to: function(arg1, arg2, arg3, arg4, arg5, arg6)  -- @hexm/client/ui/struct/csb_interface.lua:330-342
+            load_csb: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:30-36
+            load_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:62-74
+            load_dynamic_view_safely: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:76-81
+            on_create: function(arg1)  -- @hexm/client/ui/generated_view/com_focus_sel_view.lua:104-106
+            on_csb_unloaded: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:38-46
+            on_preload_callback: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:525-541
+            on_set_window: function(arg1, arg2, arg3)  -- @hexm/client/ui/generated_view/com_focus_sel_view.lua:108-110
+            play_anim: function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10)  -- @hexm/client/ui/struct/csb_interface.lua:115-197
+            play_anim_to: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:366-392
+            remove_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:91-101
+            safe_refresh_layout: function(arg1)  -- @hexm/client/ui/generated_view/com_focus_sel_view.lua:112-114
+            seek_other: nil
+            set_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:209-212
+            set_time_speed: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:442-447
+            set_view_fill_screen: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:578-581
+            set_view_hide_back_ui: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:583-587
+            set_view_hide_scene: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:570-572
+            set_view_mask_bg_color: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:601-603
+            set_view_mute_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:589-591
+            set_view_no_bg_tip: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:593-595
+            set_view_not_swallow_touch: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:574-576
+            set_view_show_mouse: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:566-568
+            set_view_swallow_input: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:597-599
+            set_view_type: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:544-564
+            set_window_in_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:613-615
+            set_window_in_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:605-607
+            set_window_out_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:621-623
+            set_window_out_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:609-611
+            stop_all_anims: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:309-313
+            stop_anim: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:283-292
+            stop_anim_and_reset: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:294-307
+          }
+        }
+      }
+      NODES_INDEX_OVERSEA_MAPPING: <dict>
+      NODES_INDEX_PATH: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        btn_buff: list ["", <nested>]
+        image_blue_smoke_vx_0: list ["", <circular>]
+        image_buff_bg: list ["", <circular>]
+        image_buff_gold: list ["\n", <circular>]
+        image_buff_hover: list ["", <circular>]
+        image_buff_icon: list ["", <circular>]
+        image_buff_line: list ["", <circular>]
+        image_liuguang: list ["", <circular>]
+        label_num: list ["", <nested>]
+        layout_vx_mask: list ["", <nested>]
+        node_float: list ["", <circular>]
+        par_bg: list ["", <nested>]
+        particle_big_white_2: list ["	\n", <circular>]
+        particle_gold_3: list ["	\n", <circular>]
+        particle_small_red1: list ["	\n", <circular>]
+        particle_small_red2: list ["	\n", <circular>]
+        splendor_black_fire_ty_0: list ["", <nested>]
+        splendor_boss_bottom_line_5: list ["		", <circular>]
+        splendor_boss_line_10: list ["		", <circular>]
+        splendor_boss_line_11: list ["		", <circular>]
+        splendor_boss_line_7: list ["		", <circular>]
+        splendor_boss_line_8: list ["		", <circular>]
+        splendor_boss_line_9: list ["		", <circular>]
+        splendor_hud_task_0: list ["	", <circular>]
+        splendor_icon_line_5: list ["		", <circular>]
+        splendor_icon_line_6: list ["		", <circular>]
+        splendor_light_1: list ["	", <circular>]
+        splendor_light_2: list ["	", <circular>]
+        splendor_light_bg: list ["	", <circular>]
+        splendor_light_bg_0: list ["", <circular>]
+        splendor_light_bg_add: list ["	", <circular>]
+        splendor_line_add_1: list ["", <circular>]
+        splendor_line_add_2: list ["", <circular>]
+        splendor_red_fire_2: list ["", <circular>]
+        splendor_red_fire_3: list ["", <circular>]
+        splendor_vx_bg_11: list ["", <circular>]
+        splendor_vx_bg_12: list ["", <circular>]
+        template_focus_sel: list ["", <circular>]
+        vx_bg_move: list ["", <circular>]
+        vx_bg_node: list ["", <circular>]
+        vx_glow_4: list ["	", <circular>]
+        vx_icon_fire_node_0: list ["		", <circular>]
+        vx_img_glow_01: list ["	", <circular>]
+        vx_img_glow_02: list ["	", <circular>]
+        vx_img_glow_02_0: list ["	", <circular>]
+        vx_layout_light_node_2: list ["	", <circular>]
+        vx_line_move: list ["", <circular>]
+        vx_particle_node_0: list ["	\n", <circular>]
+        vx_root: list ["	", <circular>]
+        vx_sweep_4: list ["	", <circular>]
+      }
+      REFERENCE_PNG: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        1: "T_NoiseMask_11_1"
+        2: "buff_96_mount_forbidden_0_0_ui"
+        3: "buffbg_bottom_gold_0_0_ui"
+        4: "buffbg_bottom_hover_0_0_ui"
+        5: "buffbg_liupaishilian_blue_01_0_0_ui"
+        6: "buffbg_liupaishilian_blue_02_0_0_ui"
+        7: "buffbg_liupaishilian_mask_0_0_ui"
+        8: "buffbg_liupaishilian_numvx_0_0_ui"
+        9: "custom_uv"
+        10: "flutter_light"
+        11: "guide_wave_2"
+        12: "lightCross_light3"
+        13: "lightCross_light4"
+        14: "vx_bangpai_icon_mask_01"
+        15: "vx_boss_kill_glow3"
+        16: "vx_buffbg_liupaishilian_mask"
+        17: "vx_buffbg_liupaishilian_mask01"
+        18: "vx_circle_splendor_mask"
+        19: "vx_com_switch_energy"
+        20: "vx_core_rectangle_gradient"
+        21: "vx_denglu_select_loop"
+        22: "vx_drink_mask_half_right_2"
+        23: "vx_dtjs_glow_fang"
+        24: "vx_dust_2_0_0_ui"
+        25: "vx_face_ai_head_bg"
+        26: "vx_home_hud_buff_outline"
+        27: "vx_jiesuan_04_0_0_ui"
+        28: "vx_noise_001"
+        29: "vx_noise_003"
+        30: "vx_noise_004"
+        31: "vx_progresstimer_mask_01"
+        32: "vx_roukou_glow2"
+        33: "vx_sanghunlin_hud_bar_bg"
+        34: "vx_shatter_line_1"
+        35: "vx_texture_nos"
+        36: "vx_zuiquan_jiu_bg_1"
+        37: "vx_zuiquan_jiu_bg_2"
+        38: "yezixi_head_keli"
+      }
+      TAGS: <dict>
+      VLC: class {
+        -- Metatable:
+        --   __tostring: yes
+        DESC: "controller简介：通用的buff图标controller，请使用set_data接口设..."
+        __module__: "hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua"
+        clear: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:37-39
+        ctor: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:23-29
+        get_buff_btn_node: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:122-124
+        init_vlc: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:32-34
+        on_buff_click: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:101-105
+        on_progress_end: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:127-132
+        set_by_buff_no: function(arg1, arg2, arg3)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:55-76
+        set_click_callback: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:95-98
+        set_data: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:42-52
+        set_hover_callback: function(arg1, arg2, arg3)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:108-119
+        start_progress: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:79-92
+      }
+      __index: nil
+      __module__: "hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lan_view.lua"
+      _debug_handle_click: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:191-199
+      _debug_on_mouse_enter: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:213-215
+      _get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:275-281
+      _load_and_get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:224-247
+      _load_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:249-273
+      _on_anim_event_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:214-222
+      _set_debug_focus: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:201-211
+      async_load_textures_check_or_init_data: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:482-491
+      async_load_textures_clear_textures: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:493-508
+      async_preload_csb_textures: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:510-523
+      check_and_play_anim_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:463-470
+      check_and_play_anim_stop_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:472-479
+      clear: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:37-39
+      clear_attr_values: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lan_view.lua:209-215
+      clear_dynamic_views: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:103-112
+      clear_last_frame_callback: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:449-454
+      ctor: function(arg1, arg2)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lan_view.lua:184-200
+      dedug_draw: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:92-150
+      destroy_object: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lan_view.lua:236-240
+      enable_debug: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:74-90
+      generate_children_view: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lan_view.lua:217-220
+      get_anim_info: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:419-424
+      get_anim_sound_key: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:457-461
+      get_buff_btn_node: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:122-124
+      get_debug_box: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:152-187
+      get_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:83-89
+      get_frame_internal: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:426-432
+      get_frame_number: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:434-440
+      get_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:204-207
+      get_tag_nodes: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:629-641
+      get_win_in_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:617-619
+      get_window_out_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:625-627
+      has_anim_playing: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:399-411
+      init_platform_diffs: nil
+      init_vlc: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:32-34
+      is_anim_exists: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:413-417
+      is_anim_playing: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:394-397
+      is_in_anim_looping: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:199-202
+      jump_to_anim_frame: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:345-359
+      jump_to_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:361-364
+      jump_to_frame_and_play: function(arg1, arg2, arg3, arg4, arg5)  -- @hexm/client/ui/struct/csb_interface.lua:315-328
+      jump_to_frame_and_play_to: function(arg1, arg2, arg3, arg4, arg5, arg6)  -- @hexm/client/ui/struct/csb_interface.lua:330-342
+      load_csb: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:30-36
+      load_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:62-74
+      load_dynamic_view_safely: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:76-81
+      on_buff_click: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:101-105
+      on_create: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lan_view.lua:223-225
+      on_csb_unloaded: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:38-46
+      on_destroy_object: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:70-72
+      on_preload_callback: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:525-541
+      on_progress_end: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:127-132
+      on_set_window: function(arg1, arg2, arg3)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lan_view.lua:227-230
+      play_anim: function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10)  -- @hexm/client/ui/struct/csb_interface.lua:115-197
+      play_anim_to: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:366-392
+      refresh: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:38-40
+      remove_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:91-101
+      safe_refresh_layout: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lan_view.lua:232-234
+      seek_other: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lan_view.lua:202-207
+      set_by_buff_no: function(arg1, arg2, arg3)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:55-76
+      set_click_callback: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:95-98
+      set_data: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:42-52
+      set_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:209-212
+      set_time_speed: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:442-447
+      set_view_fill_screen: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:578-581
+      set_view_hide_back_ui: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:583-587
+      set_view_hide_scene: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:570-572
+      set_view_mask_bg_color: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:601-603
+      set_view_mute_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:589-591
+      set_view_no_bg_tip: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:593-595
+      set_view_not_swallow_touch: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:574-576
+      set_view_show_mouse: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:566-568
+      set_view_swallow_input: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:597-599
+      set_view_type: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:544-564
+      set_window_in_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:613-615
+      set_window_in_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:605-607
+      set_window_out_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:621-623
+      set_window_out_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:609-611
+      start_progress: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:79-92
+      stop_all_anims: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:309-313
+      stop_anim: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:283-292
+      stop_anim_and_reset: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:294-307
+    }
+  }
+  2: instance {
+    -- Metatable:
+    --   __index: table
+    --   __tostring: yes
+    view_class: class {
+      -- Metatable:
+      --   __tostring: yes
+      ANIMS: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        1: "vx_in"
+        2: "vx_number_add"
+        3: "vx_unlock_in"
+        4: "vx_unlock_loop"
+        5: "vx_unlock_out"
+        6: "vx_out"
+      }
+      CSB_NAME: "UIScript/home_buff_v2_liupaita_qianghua_zi.csb"
+      DESC: "controller简介：通用的buff图标controller，请使用set_data接口设..."
+      DYNAMIC_LOAD_TEMPLATE: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        template_focus_sel_view: instance {
+          -- Metatable:
+          --   __index: table
+          --   __tostring: yes
+          1: ""
+          2: <circular>
+        }
+      }
+      NODES_INDEX_OVERSEA_MAPPING: <dict>
+      NODES_INDEX_PATH: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        btn_buff: list ["", <circular>]
+        image_blue_smoke_vx_2: list ["", <circular>]
+        image_buff_bg: list ["", <circular>]
+        image_buff_gold: list ["\n", <circular>]
+        image_buff_hover: list ["", <circular>]
+        image_buff_icon: list ["", <circular>]
+        image_buff_line: list ["", <circular>]
+        image_liuguang: list ["", <circular>]
+        label_num: list ["", <circular>]
+        layout_vx_mask: list ["", <circular>]
+        node_float: list ["", <circular>]
+        par_bg: list ["", <circular>]
+        particle_big_white_2: list ["	\n", <circular>]
+        particle_gold_3: list ["	\n", <circular>]
+        particle_small_red1: list ["	\n", <circular>]
+        particle_small_red2: list ["	\n", <circular>]
+        splendor_black_fire_ty_2: list ["", <circular>]
+        splendor_boss_bottom_line_5: list ["		", <circular>]
+        splendor_boss_line_10: list ["		", <circular>]
+        splendor_boss_line_11: list ["		", <circular>]
+        splendor_boss_line_6: list ["		", <circular>]
+        splendor_boss_line_7: list ["		", <circular>]
+        splendor_boss_line_9: list ["		", <circular>]
+        splendor_hud_task_0: list ["	", <circular>]
+        splendor_icon_line_5: list ["		", <circular>]
+        splendor_icon_line_6: list ["		", <circular>]
+        splendor_light_1: list ["	", <circular>]
+        splendor_light_2: list ["	", <circular>]
+        splendor_light_bg: list ["	", <circular>]
+        splendor_light_bg_0: list ["", <circular>]
+        splendor_light_bg_add: list ["	", <circular>]
+        splendor_line_add_1: list ["", <circular>]
+        splendor_line_add_2: list ["", <circular>]
+        splendor_red_fire_4: list ["", <circular>]
+        splendor_red_fire_5: list ["", <circular>]
+        splendor_vx_bg_13: list ["", <circular>]
+        splendor_vx_bg_14: list ["", <circular>]
+        template_focus_sel: list ["", <circular>]
+        vx_bg_move: list ["", <circular>]
+        vx_bg_node_1: list ["", <circular>]
+        vx_glow_6: list ["	", <circular>]
+        vx_icon_fire_node_0: list ["		", <circular>]
+        vx_img_glow_01: list ["	", <circular>]
+        vx_img_glow_02: list ["	", <circular>]
+        vx_img_glow_02_0: list ["	", <circular>]
+        vx_layout_light_node_4: list ["	", <circular>]
+        vx_line_move: list ["", <circular>]
+        vx_particle_node_0: list ["	\n", <circular>]
+        vx_root: list ["	", <circular>]
+        vx_sweep_6: list ["	", <circular>]
+      }
+      REFERENCE_PNG: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        1: "T_NoiseMask_11_1"
+        2: "buff_96_mount_forbidden_0_0_ui"
+        3: "buffbg_bottom_gold_0_0_ui"
+        4: "buffbg_bottom_hover_0_0_ui"
+        5: "buffbg_liupaishilian_mask_0_0_ui"
+        6: "buffbg_liupaishilian_numvx_0_0_ui"
+        7: "buffbg_liupaishilian_purple_01_0_0_ui"
+        8: "buffbg_liupaishilian_purple_02_0_0_ui"
+        9: "custom_uv"
+        10: "flutter_light"
+        11: "guide_wave_2"
+        12: "lightCross_light3"
+        13: "lightCross_light4"
+        14: "vx_bangpai_icon_mask_01"
+        15: "vx_boss_kill_glow3"
+        16: "vx_buffbg_liupaishilian_mask"
+        17: "vx_buffbg_liupaishilian_mask01"
+        18: "vx_circle_splendor_mask"
+        19: "vx_com_switch_energy"
+        20: "vx_core_rectangle_gradient"
+        21: "vx_denglu_select_loop"
+        22: "vx_drink_mask_half_right_2"
+        23: "vx_dtjs_glow_fang"
+        24: "vx_dust_2_0_0_ui"
+        25: "vx_face_ai_head_bg"
+        26: "vx_home_hud_buff_outline"
+        27: "vx_jiesuan_04_0_0_ui"
+        28: "vx_noise_001"
+        29: "vx_noise_003"
+        30: "vx_noise_004"
+        31: "vx_progresstimer_mask_01"
+        32: "vx_roukou_glow2"
+        33: "vx_sanghunlin_hud_bar_bg"
+        34: "vx_shatter_line_1"
+        35: "vx_texture_nos"
+        36: "vx_zuiquan_jiu_bg_1"
+        37: "vx_zuiquan_jiu_bg_2"
+        38: "yezixi_head_keli"
+      }
+      TAGS: <dict>
+      VLC: <circular>
+      __index: nil
+      __module__: "hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_zi_view.lua"
+      _debug_handle_click: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:191-199
+      _debug_on_mouse_enter: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:213-215
+      _get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:275-281
+      _load_and_get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:224-247
+      _load_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:249-273
+      _on_anim_event_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:214-222
+      _set_debug_focus: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:201-211
+      async_load_textures_check_or_init_data: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:482-491
+      async_load_textures_clear_textures: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:493-508
+      async_preload_csb_textures: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:510-523
+      check_and_play_anim_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:463-470
+      check_and_play_anim_stop_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:472-479
+      clear: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:37-39
+      clear_attr_values: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_zi_view.lua:209-215
+      clear_dynamic_views: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:103-112
+      clear_last_frame_callback: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:449-454
+      ctor: function(arg1, arg2)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_zi_view.lua:184-200
+      dedug_draw: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:92-150
+      destroy_object: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_zi_view.lua:236-240
+      enable_debug: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:74-90
+      generate_children_view: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_zi_view.lua:217-220
+      get_anim_info: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:419-424
+      get_anim_sound_key: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:457-461
+      get_buff_btn_node: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:122-124
+      get_debug_box: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:152-187
+      get_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:83-89
+      get_frame_internal: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:426-432
+      get_frame_number: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:434-440
+      get_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:204-207
+      get_tag_nodes: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:629-641
+      get_win_in_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:617-619
+      get_window_out_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:625-627
+      has_anim_playing: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:399-411
+      init_platform_diffs: nil
+      init_vlc: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:32-34
+      is_anim_exists: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:413-417
+      is_anim_playing: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:394-397
+      is_in_anim_looping: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:199-202
+      jump_to_anim_frame: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:345-359
+      jump_to_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:361-364
+      jump_to_frame_and_play: function(arg1, arg2, arg3, arg4, arg5)  -- @hexm/client/ui/struct/csb_interface.lua:315-328
+      jump_to_frame_and_play_to: function(arg1, arg2, arg3, arg4, arg5, arg6)  -- @hexm/client/ui/struct/csb_interface.lua:330-342
+      load_csb: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:30-36
+      load_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:62-74
+      load_dynamic_view_safely: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:76-81
+      on_buff_click: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:101-105
+      on_create: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_zi_view.lua:223-225
+      on_csb_unloaded: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:38-46
+      on_destroy_object: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:70-72
+      on_preload_callback: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:525-541
+      on_progress_end: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:127-132
+      on_set_window: function(arg1, arg2, arg3)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_zi_view.lua:227-230
+      play_anim: function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10)  -- @hexm/client/ui/struct/csb_interface.lua:115-197
+      play_anim_to: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:366-392
+      refresh: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:38-40
+      remove_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:91-101
+      safe_refresh_layout: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_zi_view.lua:232-234
+      seek_other: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_zi_view.lua:202-207
+      set_by_buff_no: function(arg1, arg2, arg3)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:55-76
+      set_click_callback: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:95-98
+      set_data: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:42-52
+      set_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:209-212
+      set_time_speed: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:442-447
+      set_view_fill_screen: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:578-581
+      set_view_hide_back_ui: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:583-587
+      set_view_hide_scene: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:570-572
+      set_view_mask_bg_color: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:601-603
+      set_view_mute_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:589-591
+      set_view_no_bg_tip: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:593-595
+      set_view_not_swallow_touch: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:574-576
+      set_view_show_mouse: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:566-568
+      set_view_swallow_input: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:597-599
+      set_view_type: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:544-564
+      set_window_in_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:613-615
+      set_window_in_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:605-607
+      set_window_out_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:621-623
+      set_window_out_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:609-611
+      start_progress: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:79-92
+      stop_all_anims: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:309-313
+      stop_anim: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:283-292
+      stop_anim_and_reset: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:294-307
+    }
+  }
+  3: instance {
+    -- Metatable:
+    --   __index: table
+    --   __tostring: yes
+    view_class: class {
+      -- Metatable:
+      --   __tostring: yes
+      ANIMS: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        1: "vx_in"
+        2: "vx_number_add"
+        3: "vx_unlock_in"
+        4: "vx_unlock_loop"
+        5: "vx_unlock_out"
+        6: "vx_out"
+      }
+      CSB_NAME: "UIScript/home_buff_v2_liupaita_qianghua_lv.csb"
+      DESC: "controller简介：通用的buff图标controller，请使用set_data接口设..."
+      DYNAMIC_LOAD_TEMPLATE: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        template_focus_sel_view: instance {
+          -- Metatable:
+          --   __index: table
+          --   __tostring: yes
+          1: ""
+          2: <circular>
+        }
+      }
+      NODES_INDEX_OVERSEA_MAPPING: <dict>
+      NODES_INDEX_PATH: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        btn_buff: list ["", <circular>]
+        image_blue_smoke_vx_1: list ["", <circular>]
+        image_buff_bg: list ["", <circular>]
+        image_buff_gold: list ["\n", <circular>]
+        image_buff_hover: list ["", <circular>]
+        image_buff_icon: list ["", <circular>]
+        image_buff_line: list ["", <circular>]
+        image_liuguang: list ["", <circular>]
+        label_num: list ["", <circular>]
+        layout_vx_mask: list ["", <circular>]
+        node_float: list ["", <circular>]
+        par_bg: list ["", <circular>]
+        particle_big_white_2: list ["	\n", <circular>]
+        particle_gold_3: list ["	\n", <circular>]
+        particle_small_red1: list ["	\n", <circular>]
+        particle_small_red2: list ["	\n", <circular>]
+        splendor_black_fire_ty_1: list ["", <circular>]
+        splendor_boss_bottom_line_5: list ["		", <circular>]
+        splendor_boss_line_10: list ["		", <circular>]
+        splendor_boss_line_11: list ["		", <circular>]
+        splendor_boss_line_6: list ["		", <circular>]
+        splendor_boss_line_7: list ["		", <circular>]
+        splendor_boss_line_9: list ["		", <circular>]
+        splendor_hud_task_0: list ["	", <circular>]
+        splendor_icon_line_5: list ["		", <circular>]
+        splendor_icon_line_6: list ["		", <circular>]
+        splendor_light_1: list ["	", <circular>]
+        splendor_light_2: list ["	", <circular>]
+        splendor_light_bg: list ["	", <circular>]
+        splendor_light_bg_0: list ["", <circular>]
+        splendor_light_bg_add: list ["	", <circular>]
+        splendor_line_add_1: list ["", <circular>]
+        splendor_line_add_2: list ["", <circular>]
+        splendor_red_fire_3: list ["", <circular>]
+        splendor_red_fire_4: list ["", <circular>]
+        splendor_vx_bg_12: list ["", <circular>]
+        splendor_vx_bg_13: list ["", <circular>]
+        template_focus_sel: list ["", <circular>]
+        vx_bg_move: list ["", <circular>]
+        vx_bg_node_0: list ["", <circular>]
+        vx_glow_5: list ["	", <circular>]
+        vx_icon_fire_node_0: list ["		", <circular>]
+        vx_img_glow_01: list ["	", <circular>]
+        vx_img_glow_02: list ["	", <circular>]
+        vx_img_glow_02_0: list ["	", <circular>]
+        vx_layout_light_node_3: list ["	", <circular>]
+        vx_line_move: list ["", <circular>]
+        vx_particle_node_0: list ["	\n", <circular>]
+        vx_root: list ["	", <circular>]
+        vx_sweep_5: list ["	", <circular>]
+      }
+      REFERENCE_PNG: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        1: "T_NoiseMask_11_1"
+        2: "buff_96_mount_forbidden_0_0_ui"
+        3: "buffbg_bottom_gold_0_0_ui"
+        4: "buffbg_bottom_hover_0_0_ui"
+        5: "buffbg_liupaishilian_green_01_0_0_ui"
+        6: "buffbg_liupaishilian_green_02_0_0_ui"
+        7: "buffbg_liupaishilian_mask_0_0_ui"
+        8: "buffbg_liupaishilian_numvx_0_0_ui"
+        9: "custom_uv"
+        10: "flutter_light"
+        11: "guide_wave_2"
+        12: "lightCross_light3"
+        13: "lightCross_light4"
+        14: "vx_bangpai_icon_mask_01"
+        15: "vx_boss_kill_glow3"
+        16: "vx_buffbg_liupaishilian_mask"
+        17: "vx_buffbg_liupaishilian_mask01"
+        18: "vx_circle_splendor_mask"
+        19: "vx_com_switch_energy"
+        20: "vx_core_rectangle_gradient"
+        21: "vx_denglu_select_loop"
+        22: "vx_drink_mask_half_right_2"
+        23: "vx_dtjs_glow_fang"
+        24: "vx_dust_2_0_0_ui"
+        25: "vx_face_ai_head_bg"
+        26: "vx_home_hud_buff_outline"
+        27: "vx_jiesuan_04_0_0_ui"
+        28: "vx_noise_001"
+        29: "vx_noise_003"
+        30: "vx_noise_004"
+        31: "vx_progresstimer_mask_01"
+        32: "vx_roukou_glow2"
+        33: "vx_sanghunlin_hud_bar_bg"
+        34: "vx_shatter_line_1"
+        35: "vx_texture_nos"
+        36: "vx_zuiquan_jiu_bg_1"
+        37: "vx_zuiquan_jiu_bg_2"
+        38: "yezixi_head_keli"
+      }
+      TAGS: <dict>
+      VLC: <circular>
+      __index: nil
+      __module__: "hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lv_view.lua"
+      _debug_handle_click: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:191-199
+      _debug_on_mouse_enter: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:213-215
+      _get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:275-281
+      _load_and_get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:224-247
+      _load_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:249-273
+      _on_anim_event_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:214-222
+      _set_debug_focus: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:201-211
+      async_load_textures_check_or_init_data: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:482-491
+      async_load_textures_clear_textures: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:493-508
+      async_preload_csb_textures: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:510-523
+      check_and_play_anim_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:463-470
+      check_and_play_anim_stop_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:472-479
+      clear: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:37-39
+      clear_attr_values: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lv_view.lua:209-215
+      clear_dynamic_views: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:103-112
+      clear_last_frame_callback: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:449-454
+      ctor: function(arg1, arg2)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lv_view.lua:184-200
+      dedug_draw: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:92-150
+      destroy_object: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lv_view.lua:236-240
+      enable_debug: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:74-90
+      generate_children_view: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lv_view.lua:217-220
+      get_anim_info: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:419-424
+      get_anim_sound_key: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:457-461
+      get_buff_btn_node: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:122-124
+      get_debug_box: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:152-187
+      get_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:83-89
+      get_frame_internal: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:426-432
+      get_frame_number: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:434-440
+      get_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:204-207
+      get_tag_nodes: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:629-641
+      get_win_in_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:617-619
+      get_window_out_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:625-627
+      has_anim_playing: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:399-411
+      init_platform_diffs: nil
+      init_vlc: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:32-34
+      is_anim_exists: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:413-417
+      is_anim_playing: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:394-397
+      is_in_anim_looping: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:199-202
+      jump_to_anim_frame: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:345-359
+      jump_to_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:361-364
+      jump_to_frame_and_play: function(arg1, arg2, arg3, arg4, arg5)  -- @hexm/client/ui/struct/csb_interface.lua:315-328
+      jump_to_frame_and_play_to: function(arg1, arg2, arg3, arg4, arg5, arg6)  -- @hexm/client/ui/struct/csb_interface.lua:330-342
+      load_csb: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:30-36
+      load_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:62-74
+      load_dynamic_view_safely: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:76-81
+      on_buff_click: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:101-105
+      on_create: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lv_view.lua:223-225
+      on_csb_unloaded: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:38-46
+      on_destroy_object: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:70-72
+      on_preload_callback: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:525-541
+      on_progress_end: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:127-132
+      on_set_window: function(arg1, arg2, arg3)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lv_view.lua:227-230
+      play_anim: function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10)  -- @hexm/client/ui/struct/csb_interface.lua:115-197
+      play_anim_to: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:366-392
+      refresh: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:38-40
+      remove_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:91-101
+      safe_refresh_layout: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lv_view.lua:232-234
+      seek_other: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_lv_view.lua:202-207
+      set_by_buff_no: function(arg1, arg2, arg3)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:55-76
+      set_click_callback: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:95-98
+      set_data: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:42-52
+      set_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:209-212
+      set_time_speed: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:442-447
+      set_view_fill_screen: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:578-581
+      set_view_hide_back_ui: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:583-587
+      set_view_hide_scene: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:570-572
+      set_view_mask_bg_color: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:601-603
+      set_view_mute_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:589-591
+      set_view_no_bg_tip: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:593-595
+      set_view_not_swallow_touch: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:574-576
+      set_view_show_mouse: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:566-568
+      set_view_swallow_input: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:597-599
+      set_view_type: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:544-564
+      set_window_in_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:613-615
+      set_window_in_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:605-607
+      set_window_out_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:621-623
+      set_window_out_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:609-611
+      start_progress: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:79-92
+      stop_all_anims: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:309-313
+      stop_anim: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:283-292
+      stop_anim_and_reset: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:294-307
+    }
+  }
+  4: instance {
+    -- Metatable:
+    --   __index: table
+    --   __tostring: yes
+    view_class: class {
+      -- Metatable:
+      --   __tostring: yes
+      ANIMS: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        1: "vx_in"
+        2: "vx_number_add"
+        3: "vx_unlock_in"
+        4: "vx_unlock_loop"
+        5: "vx_unlock_out"
+        6: "vx_out"
+      }
+      CSB_NAME: "UIScript/home_buff_v2_liupaita_qianghua.csb"
+      DESC: "controller简介：通用的buff图标controller，请使用set_data接口设..."
+      DYNAMIC_LOAD_TEMPLATE: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        template_focus_sel_view: instance {
+          -- Metatable:
+          --   __index: table
+          --   __tostring: yes
+          1: ""
+          2: <circular>
+        }
+      }
+      NODES_INDEX_OVERSEA_MAPPING: <dict>
+      NODES_INDEX_PATH: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        btn_buff: list ["", <circular>]
+        image_blue_smoke_vx_1: list ["", <circular>]
+        image_buff_bg: list ["", <circular>]
+        image_buff_gold: list ["\n", <circular>]
+        image_buff_hover: list ["", <circular>]
+        image_buff_icon: list ["", <circular>]
+        image_buff_line: list ["", <circular>]
+        image_liuguang: list ["", <circular>]
+        label_num: list ["", <circular>]
+        layout_vx_mask: list ["", <circular>]
+        node_float: list ["", <circular>]
+        par_bg: list ["", <circular>]
+        particle_big_white_2: list ["	\n", <circular>]
+        particle_gold_3: list ["	\n", <circular>]
+        particle_small_red1: list ["	\n", <circular>]
+        particle_small_red2: list ["	\n", <circular>]
+        splendor_black_fire_ty_1: list ["", <circular>]
+        splendor_boss_bottom_line_5: list ["		", <circular>]
+        splendor_boss_line_10: list ["		", <circular>]
+        splendor_boss_line_11: list ["		", <circular>]
+        splendor_boss_line_6: list ["		", <circular>]
+        splendor_boss_line_7: list ["		", <circular>]
+        splendor_boss_line_9: list ["		", <circular>]
+        splendor_hud_task_0: list ["	", <circular>]
+        splendor_icon_line_5: list ["		", <circular>]
+        splendor_icon_line_6: list ["		", <circular>]
+        splendor_light_1: list ["	", <circular>]
+        splendor_light_2: list ["	", <circular>]
+        splendor_light_bg: list ["	", <circular>]
+        splendor_light_bg_0: list ["", <circular>]
+        splendor_light_bg_add: list ["	", <circular>]
+        splendor_line_add_1: list ["", <circular>]
+        splendor_line_add_2: list ["", <circular>]
+        splendor_red_fire_3: list ["", <circular>]
+        splendor_red_fire_4: list ["", <circular>]
+        splendor_vx_bg_12: list ["", <circular>]
+        splendor_vx_bg_13: list ["", <circular>]
+        template_focus_sel: list ["", <circular>]
+        vx_bg_move: list ["", <circular>]
+        vx_bg_node_0: list ["", <circular>]
+        vx_glow_5: list ["	", <circular>]
+        vx_icon_fire_node_0: list ["		", <circular>]
+        vx_img_glow_01: list ["	", <circular>]
+        vx_img_glow_02: list ["	", <circular>]
+        vx_img_glow_02_0: list ["	", <circular>]
+        vx_layout_light_node_3: list ["	", <circular>]
+        vx_line_move: list ["", <circular>]
+        vx_particle_node_0: list ["	\n", <circular>]
+        vx_root: list ["	", <circular>]
+        vx_sweep_5: list ["	", <circular>]
+      }
+      REFERENCE_PNG: instance {
+        -- Metatable:
+        --   __index: table
+        --   __tostring: yes
+        1: "T_NoiseMask_11_1"
+        2: "buff_96_mount_forbidden_0_0_ui"
+        3: "buffbg_bottom_gold_0_0_ui"
+        4: "buffbg_bottom_hover_0_0_ui"
+        5: "buffbg_liupaishilian_mask_0_0_ui"
+        6: "buffbg_liupaishilian_numvx_0_0_ui"
+        7: "buffbg_liupaishilian_red_01_0_0_ui"
+        8: "buffbg_liupaishilian_red_02_0_0_ui"
+        9: "custom_uv"
+        10: "flutter_light"
+        11: "guide_wave_2"
+        12: "lightCross_light3"
+        13: "lightCross_light4"
+        14: "vx_bangpai_icon_mask_01"
+        15: "vx_boss_kill_glow3"
+        16: "vx_buffbg_liupaishilian_mask"
+        17: "vx_buffbg_liupaishilian_mask01"
+        18: "vx_circle_splendor_mask"
+        19: "vx_com_switch_energy"
+        20: "vx_core_rectangle_gradient"
+        21: "vx_denglu_select_loop"
+        22: "vx_drink_mask_half_right_2"
+        23: "vx_dtjs_glow_fang"
+        24: "vx_dust_2_0_0_ui"
+        25: "vx_face_ai_head_bg"
+        26: "vx_home_hud_buff_outline"
+        27: "vx_jiesuan_04_0_0_ui"
+        28: "vx_noise_001"
+        29: "vx_noise_003"
+        30: "vx_noise_004"
+        31: "vx_progresstimer_mask_01"
+        32: "vx_roukou_glow2"
+        33: "vx_sanghunlin_hud_bar_bg"
+        34: "vx_shatter_line_1"
+        35: "vx_texture_nos"
+        36: "vx_zuiquan_jiu_bg_1"
+        37: "vx_zuiquan_jiu_bg_2"
+        38: "yezixi_head_keli"
+      }
+      TAGS: <dict>
+      VLC: <circular>
+      __index: nil
+      __module__: "hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_view.lua"
+      _debug_handle_click: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:191-199
+      _debug_on_mouse_enter: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:213-215
+      _get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:275-281
+      _load_and_get_timeline: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:224-247
+      _load_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:249-273
+      _on_anim_event_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:214-222
+      _set_debug_focus: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:201-211
+      async_load_textures_check_or_init_data: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:482-491
+      async_load_textures_clear_textures: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:493-508
+      async_preload_csb_textures: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:510-523
+      check_and_play_anim_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:463-470
+      check_and_play_anim_stop_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:472-479
+      clear: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:37-39
+      clear_attr_values: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_view.lua:209-215
+      clear_dynamic_views: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:103-112
+      clear_last_frame_callback: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:449-454
+      ctor: function(arg1, arg2)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_view.lua:184-200
+      dedug_draw: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:92-150
+      destroy_object: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_view.lua:236-240
+      enable_debug: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:74-90
+      generate_children_view: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_view.lua:217-220
+      get_anim_info: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:419-424
+      get_anim_sound_key: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:457-461
+      get_buff_btn_node: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:122-124
+      get_debug_box: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:152-187
+      get_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:83-89
+      get_frame_internal: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:426-432
+      get_frame_number: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:434-440
+      get_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:204-207
+      get_tag_nodes: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:629-641
+      get_win_in_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:617-619
+      get_window_out_anim: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:625-627
+      has_anim_playing: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:399-411
+      init_platform_diffs: nil
+      init_vlc: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:32-34
+      is_anim_exists: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:413-417
+      is_anim_playing: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:394-397
+      is_in_anim_looping: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:199-202
+      jump_to_anim_frame: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:345-359
+      jump_to_frame: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:361-364
+      jump_to_frame_and_play: function(arg1, arg2, arg3, arg4, arg5)  -- @hexm/client/ui/struct/csb_interface.lua:315-328
+      jump_to_frame_and_play_to: function(arg1, arg2, arg3, arg4, arg5, arg6)  -- @hexm/client/ui/struct/csb_interface.lua:330-342
+      load_csb: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:30-36
+      load_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:62-74
+      load_dynamic_view_safely: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:76-81
+      on_buff_click: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:101-105
+      on_create: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_view.lua:223-225
+      on_csb_unloaded: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:38-46
+      on_destroy_object: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:70-72
+      on_preload_callback: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:525-541
+      on_progress_end: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:127-132
+      on_set_window: function(arg1, arg2, arg3)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_view.lua:227-230
+      play_anim: function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10)  -- @hexm/client/ui/struct/csb_interface.lua:115-197
+      play_anim_to: function(arg1, arg2, arg3, arg4)  -- @hexm/client/ui/struct/csb_interface.lua:366-392
+      refresh: function(arg1)  -- @hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:38-40
+      remove_dynamic_view: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:91-101
+      safe_refresh_layout: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_view.lua:232-234
+      seek_other: function(arg1)  -- @hexm/client/ui/generated_view/home_buff_v2_liupaita_qianghua_view.lua:202-207
+      set_by_buff_no: function(arg1, arg2, arg3)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:55-76
+      set_click_callback: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:95-98
+      set_data: function(arg1, arg2)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:42-52
+      set_looping_sound_played: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:209-212
+      set_time_speed: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:442-447
+      set_view_fill_screen: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:578-581
+      set_view_hide_back_ui: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:583-587
+      set_view_hide_scene: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:570-572
+      set_view_mask_bg_color: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:601-603
+      set_view_mute_sound: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:589-591
+      set_view_no_bg_tip: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:593-595
+      set_view_not_swallow_touch: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:574-576
+      set_view_show_mouse: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:566-568
+      set_view_swallow_input: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:597-599
+      set_view_type: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:544-564
+      set_window_in_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:613-615
+      set_window_in_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:605-607
+      set_window_out_anim: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:621-623
+      set_window_out_sound_no: function(arg1, arg2)  -- @hexm/client/ui/struct/csb_interface.lua:609-611
+      start_progress: function(arg1)  -- @hexm/client/ui/view/view_logic_component/buff_icon_vlc.lua:79-92
+      stop_all_anims: function(arg1)  -- @hexm/client/ui/struct/csb_interface.lua:309-313
+      stop_anim: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:283-292
+      stop_anim_and_reset: function(arg1, arg2, arg3)  -- @hexm/client/ui/struct/csb_interface.lua:294-307
+    }
+  }
+  5: instance {
+    -- Metatable:
+    --   __index: table
+    --   __tostring: yes
+    view_class: <circular>
+  }
+}
+
+HomeBloodLiupaiBuffController: class {
+  -- Metatable:
+  --   __tostring: yes
+  __module__: "hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua"
+  check_and_show_default_buff_float: function(arg1, arg2, arg3)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:263-283
+  init: function(arg1, arg2)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:253-261
+  on_buff_click: function(arg1)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:285-292
+  on_buff_hover: function(arg1)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:294-300
+  on_buff_hover_state_change: function(arg1, arg2)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:302-307
+  open_buff_float_window: function(arg1)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:309-328
+}
+
+LiupaiBuffController: class {
+  -- Metatable:
+  --   __tostring: yes
+  __module__: "hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua"
+  ctor: function(arg1, arg2)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:53-55
+  get_buff_ins: function(arg1, arg2, arg3)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:216-220
+  get_cur_time: function(arg1)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:222-224
+  get_stack_state: function(arg1)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:212-214
+  init: function(arg1, arg2)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:57-71
+  on_buff_added: function(arg1, arg2, arg3)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:82-92
+  on_buff_removed: function(arg1, arg2, arg3)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:102-107
+  on_buff_updated: function(arg1, arg2, arg3)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:94-100
+  on_level_battle_end: function(arg1, arg2, arg3)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:109-111
+  reset_buff_data: function(arg1, arg2)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:74-80
+  set_buff_data: function(arg1, arg2)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:113-122
+  set_by_buff_no: function(arg1, arg2, arg3)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:124-210
+  start_countdown_state: function(arg1, arg2)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:227-246
+}
+
+get_buff_view_clz_by_level_id: function(arg1)  -- @hexm/client/ui/windows/home/home_blood/home_blood_liupai_buff_controller.lua:30-48
+
+
+-- End of hexm.client.ui.windows.home.home_blood.home_blood_liupai_buff_controller

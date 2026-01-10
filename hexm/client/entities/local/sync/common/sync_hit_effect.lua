@@ -1,0 +1,44 @@
+-- ======================================================================
+-- Module: hexm.client.entities.local.sync.common.sync_hit_effect
+-- Source: package.loaded
+-- Type: table
+-- Order: #5954
+-- ======================================================================
+
+-- Module type: table
+
+SyncHitEffect: class {
+  -- Metatable:
+  --   __tostring: yes
+  ARGS: instance {
+    -- Metatable:
+    --   __index: table
+    --   __tostring: yes
+    function: 000001922340E620: instance {
+      -- Metatable:
+      --   __index: table
+      --   __tostring: yes
+      1: "fromer_id"
+      2: "cal_id"
+      3: "flag"
+      4: "rm_buffs"
+    }
+  }
+  Sync_ID_To_Func: instance {
+    -- Metatable:
+    --   __index: table
+    --   __tostring: yes
+    298434616: instance {
+      -- Metatable:
+      --   __index: table
+      --   __tostring: yes
+      1: function(arg1, arg2)  -- @hexm/client/entities/local/sync/common/sync_hit_effect.lua:11-18
+      2: <circular>
+    }
+  }
+  __module__: "hexm/client/entities/local/sync/common/sync_hit_effect.lua"
+  hit_effect: function(arg1, arg2)  -- @hexm/client/entities/local/sync/common/sync_hit_effect.lua:11-18
+}
+
+
+-- End of hexm.client.entities.local.sync.common.sync_hit_effect

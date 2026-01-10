@@ -1,0 +1,22 @@
+-- ======================================================================
+-- Module: hexm.client.entities.local.building.block_manager.block_manager_members.imp_player_tracker
+-- Source: package.loaded
+-- Type: table
+-- Order: #2137
+-- ======================================================================
+
+-- Module type: table
+
+ImpPlayerTracker: class {
+  -- Metatable:
+  --   __tostring: yes
+  __init_component__: function(arg1, arg2)  -- @hexm/client/entities/local/building/block_manager/block_manager_members/imp_player_tracker.lua:14-17
+  __module__: "hexm/client/entities/local/building/block_manager/block_manager_members/imp_p..."
+  change_to_grid: function(arg1, arg2, arg3)  -- @hexm/client/entities/local/building/block_manager/block_manager_members/imp_player_tracker.lua:19-26
+  ctor: function(...)  -- =[C]
+  new: function(...)  -- =[C]
+  recheck_blocks_distance: function(arg1, arg2)  -- @hexm/client/entities/local/building/block_manager/block_manager_members/imp_player_tracker.lua:28-52
+}
+
+
+-- End of hexm.client.entities.local.building.block_manager.block_manager_members.imp_player_tracker

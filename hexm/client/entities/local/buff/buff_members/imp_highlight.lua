@@ -1,0 +1,23 @@
+-- ======================================================================
+-- Module: hexm.client.entities.local.buff.buff_members.imp_highlight
+-- Source: package.loaded
+-- Type: table
+-- Order: #3810
+-- ======================================================================
+
+-- Module type: table
+
+BuffMember: class {
+  -- Metatable:
+  --   __tostring: yes
+  __fini_component__: function(arg1)  -- @hexm/client/entities/local/buff/buff_members/imp_highlight.lua:20-22
+  __init_component__: function(arg1, arg2)  -- @hexm/client/entities/local/buff/buff_members/imp_highlight.lua:15-18
+  __module__: "hexm/client/entities/local/buff/buff_members/imp_highlight.lua"
+  ctor: function(...)  -- =[C]
+  key: function()  -- @hexm/client/entities/local/buff/buff_members/imp_highlight.lua:7-9
+  new: function(...)  -- =[C]
+  should_enable: function(arg1, arg2, arg3, arg4, arg5)  -- @hexm/client/entities/local/buff/buff_members/imp_highlight.lua:11-13
+}
+
+
+-- End of hexm.client.entities.local.buff.buff_members.imp_highlight

@@ -1,0 +1,103 @@
+-- ======================================================================
+-- Module: hexm.common.consts.eden_consts
+-- Source: package.loaded
+-- Type: table
+-- Order: #3494
+-- ======================================================================
+
+-- Module type: table
+
+ACTIVITY_TYPE_FIRST: 1
+
+ACTIVITY_TYPE_NONE: 0
+
+ACTIVITY_TYPE_VALID: 2
+
+BOCI_MANAGER_STATUS_END: 3
+
+BOCI_MANAGER_STATUS_RUNNING: 2
+
+BOCI_MANAGER_STATUS_WAIT: 1
+
+EDEN_AFFIX_TYPE_LOOP_RUN_AL: 10
+
+EDEN_AFFIX_TYPE_PERMANENT: 13
+
+EDEN_STATUS_BATTLE_END: 4
+
+EDEN_STATUS_NONE: 0
+
+EDEN_STATUS_READY: 2
+
+EDEN_STATUS_START: 3
+
+EDEN_STATUS_WAIT_READY: 1
+
+EDEN_WF_FAC_NAME: "eden"
+
+ERR_INVALID_SOULJADE_IID: 1004
+
+ERR_INVALID_SOULJADE_PLAN_ID: 1002
+
+ERR_INVALID_SOULJADE_SLOT_ID: 1003
+
+ERR_SOULJADE_PLAN_SAME: 1001
+
+EXIT_TYPE_ABORT: 0
+
+EXIT_TYPE_FAIL: 2
+
+EXIT_TYPE_SUCC: 1
+
+FAIL_REASON_ALL_AVATAR_DEAD: 3
+
+FAIL_REASON_LIMIT_TIME: 1
+
+FAIL_REASON_TEAMMATE_NPC_DEAD: 2
+
+MODE_TYPE_NIGHTMARE: 2
+
+MODE_TYPE_NORMAL: 1
+
+MODE_TYPE_RANK_INTERVAL: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 10000000
+  2: 10000
+}
+
+PREPARE_ENTITY_INS_ENTITY: 1
+
+PREPARE_ENTITY_INS_TRAP: 2
+
+REASON_BOCI_INFO_BY_CLIENT: 2
+
+REASON_BOCI_INFO_FAILED: 3
+
+REASON_BOCI_INFO_NEW_SUB_BOCI: 1
+
+REASON_BOCI_INFO_NONE: 0
+
+REPEAT_REWARD_TYPE_FAIL: 2
+
+REPEAT_REWARD_TYPE_NONE: 0
+
+REPEAT_REWARD_TYPE_SUCC: 1
+
+SOULJADE_SLOTS: instance {
+  -- Metatable:
+  --   __index: table
+  --   __tostring: yes
+  1: 1
+  2: 2
+  3: 3
+  4: 4
+  5: 5
+  6: 6
+}
+
+_reload_all: true
+
+
+-- End of hexm.common.consts.eden_consts

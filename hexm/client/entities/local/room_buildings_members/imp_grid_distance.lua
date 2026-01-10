@@ -1,0 +1,18 @@
+-- ======================================================================
+-- Module: hexm.client.entities.local.room_buildings_members.imp_grid_distance
+-- Source: package.loaded
+-- Type: table
+-- Order: #2603
+-- ======================================================================
+
+-- Module type: table
+
+ImpGridDistance: class {
+  -- Metatable:
+  --   __tostring: yes
+  __module__: "hexm/client/entities/local/room_buildings_members/imp_grid_distance.lua"
+  apply_grid_distance: function(arg1, arg2)  -- @hexm/client/entities/local/room_buildings_members/imp_grid_distance.lua:13-15
+}
+
+
+-- End of hexm.client.entities.local.room_buildings_members.imp_grid_distance
